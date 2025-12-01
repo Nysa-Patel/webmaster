@@ -69,5 +69,7 @@ p {
     margin-left: 1rem;
 }
 .hero-image {
-    background-image: url(//i0.wp.com/rei-ink.com/wp-content/uploads/2020/12/REI_Morris-County-New-Jersey-1.jpg?fit=720%2C480&ssl=1);
+    background-image: url(image.webp);
+    height: 400px;
+    width: 1980px;
 }
