@@ -1,40 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community thing</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <div class="hero-image"> </div>
+<div class="background">
 
-    <h1>Morris County Resource Hub</h1>
-    <div class = "topnav">
-        <label for ="town">Town: </label>
-        <select class="towndropdown" id="town" name="town">
-            <option value="town">Morristown</option>
-            <option value="town1">Parsippany</option>
-            <option value="town2">Denville</option>
-            <option value="town3">Montville</option>
-        </select>
-        <div class="search-container">
-            <input class="searchbar" type="text" placeholder="Search..">
-            <span class="search-icon"><i class="fa fa-search"></i></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Community thing</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <ul class="navbar-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutus">About us</a></li>
+                <li><a href="#sources">Sources</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header" style="margin-top: 100px;">
+            <h1>Morris County Resource Hub</h1>
+            <div>
+                <div class="firstsection">
+                    <label for="town">Town: </label>
+                    <select class="towndropdown" id="town" name="town">
+                        <option value="town">Boonton</option>
+                        <option value="town">Butler</option>
+                        <option value="town">Chatham</option>
+                        <option value="town">Chester</option>
+                        <option value="town">Denville</option>
+                        <option value="town">Dover</option>
+                        <option value="town">East Hanover</option>
+                        <option value="town">Florham Park</option>
+                        <option value="town">Hanover </option>
+                        <option value="town">Harding</option>
+                        <option value="town">Jefferson Township</option>
+                        <option value="town">Kinnelon</option>
+                        <option value="town">Lincoln Park</option>
+                        <option value="town">Long Hill</option>
+                        <option value="town">Madison</option>
+                        <option value="town">Mendham</option>
+                        <option value="town">Mine Hill</option>
+                        <option value="town">Montville</option>
+                        <option value="town">Morris Plains</option>
+                        <option value="town">Morris Township</option>
+                        <option value="town">Morristown</option>
+                        <option value="town">Mount Arlington</option>
+                        <option value="town">Mount Olive</option>
+                        <option value="town">Mountain Lakes</option>
+                        <option value="town">Netcong</option>
+                        <option value="town">Parsippany-Troy Hills</option>
+                        <option value="town">Pequannock</option>
+                        <option value="town">Randolph</option>
+                        <option value="town">Riverdale</option>
+                        <option value="town">Rockaway</option>
+                        <option value="town">Roxbury</option>
+                        <option value="town">Victory Gardens</option>
+                        <option value="town">Washington Township</option>
+                        <option value="town">Wharton</option>
+
+                    </select>
+                </div>
+            </div>
         </div>
-    </div>  
-<div class="container">
-  <div class="bottom-left">
-      <p> Morris County is a region in northern New Jersey that combines suburban living, preserved natural landscapes, and a strong historical identity. Established in the early eighteenth century, it was named after Colonial Governor Lewis Morris and has grown into one of the state's most populous counties. The county covers nearly 500 square miles, with a mix of residential areas, business centers, farmland, and forested highlands. Its population has steadily increased over the years, surpassing half a million residents. Much of the land lies within the New Jersey Highlands, an area known for its lakes, rivers, and rolling hills, which provide opportunities for outdoor recreation and conservation. Culturally, Morris County is recognized for its role in the American Revolution, with several preserved sites and museums that highlight its importance in the nation's early history. It also offers a vibrant arts scene, community events, and local tourism centered on farms, breweries, and historic landmarks. Overall, Morris County stands out as a place where history, nature, and contemporary life intersect, making it both a commuter hub for the New York metropolitan area and a destination in its own right.  </p>
-  </div>
-  <div class="right">
-    <p> Featured Searches </p>
-  </div>
+</div>
+<div class="search-container">
+    <h2 class="box-header">Volunteer Opportunity</h2>
+    <form class="searchbox" action="https://www.google.com/search" method="GET">
+        <label>Keywords:</label>
+        <input type="text" name="q" placeholder="Keywords">
+
+        <label>Distance (in miles):</label>
+        <select name="miles">
+            <option value="">Select miles</option>
+            <option value="5">5 miles</option>
+            <option value="10">10 miles</option>
+            <option value="15">15 miles</option>
+            <option value="20">20 miles</option>
+        </select>
+        <label>Data Range: </label><br>
+        From: <input type="date" name="from">
+        To: <input type="date" name="to">
+        <button type="submit">Search</button>
+    </form>
+</div>
+<main>
+    <div class="left-column">
+        <p> Morris County is a region in northern New Jersey that combines suburban living, preserved natural
+            landscapes, and a strong historical identity. Established in the early eighteenth century, it was named
+            after Colonial Governor Lewis Morris and has grown into one of the state's most populous counties. The
+            county covers nearly 500 square miles, with a mix of residential areas, business centers, farmland, and
+            forested highlands. Its population has steadily increased over the years, surpassing half a million
+            residents. Much of the land lies within the New Jersey Highlands, an area known for its lakes, rivers, and
+            rolling hills, which provide opportunities for outdoor recreation and conservation. Culturally, Morris
+            County is recognized for its role in the American Revolution, with several preserved sites and museums that
+            highlight its importance in the nation's early history. It also offers a vibrant arts scene, community
+            events, and local tourism centered on farms, breweries, and historic landmarks. Overall, Morris County
+            stands out as a place where history, nature, and contemporary life intersect, making it both a commuter hub
+            for the New York metropolitan area and a destination in its own right. </p>
+    </div>
+    <div class="right-column">
+        <h2> Featured Resources </h2>
+        <ul>
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#"> Sources</a></li>
+        </ul>
+        <footer> TSA Webmaster Submission </footer>
+    </div>
+
+</main>
+<div id="aboutus">
+    <h2>About us</h2>
+    <div class="card">
+        <div class="container">
+            
+            <h4><b> Ekansh Simgekar </b></h4>
+            <p> Sophomore in the Academy of Computer Science with an avid interest in web design. Other interests are in
+                fields like robotics, cybersecurity, and the sciences. </p>
+        </div>
+        <div class="container">
+            <h4><b> Nysa Patel </b></h4>
+            <p>Sophomore in the Academy of Computer Science with a passion for computer science and AI. Hobbies are
+                playing the violin, robotics, computer science, and helping businesses be more efficient.</p>
+        </div>
+        <div class="container">
+            <h4><b> Nysa V </b></h4>
+            <p> Nysa Vadaliya is a judgemental person in comp sci and thinks she is the best at everything and is so
+                mean. i can never do anything by myself and i am nysa p's pooch. i  </p>
+        </div>
+        <div class="container">
+            <h4><b> Ryan Khieu </b></h4>
+            <p> Veer managt </p>
+        </div>
+        <div class="container">
+            <h4><b> Maha K</b></h4>
+            <p> EI love  </p>
+        </div>
+    </div>
+</div>
+<div id="sources">
+    <h2> Sources </h2> 
+    <a href="https://www.morriscountynj.gov/Departments/Community-Assistance-Resources"> Morris County Community-Assistance-Resources </a>
+    <h2> </h2>
+    <a href="https://www.familypromisemorris.org/outreach-programs"> Family Help Programs  </a>
+    <h2> </h2>
+    <a href="https://www.lvmorris.org/community-resources/"> Educacional Providers in Morris County  </a>
+    <h2> </h2>
 </div>
 
-      </div> 
-        
-    
+
+
+
+
+
 </body>
+
 </html>
