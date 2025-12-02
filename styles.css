@@ -51,16 +51,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Navbar */
 .navbar {
   background-color: #0000008c;
@@ -453,4 +443,69 @@ main {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+/* event 2 */
+.palfundraiser {
+    display: flex;
+    gap: 3rem;
+    padding: 4rem 2rem;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.palfundraisertext {
+    flex: 0.8;
+}
+
+.palfundraisertext h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+.palfundraisertext p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.cards-container {
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.palfundraiserImg {
+    width: 100%;
+    display: block;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .palfundraiser {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+    
+    .palfundraisertext {
+        padding-right: 0;
+    }
+    
+    .palfundraisertext h2 {
+        font-size: 2rem;
+    }
+
+    .palfundraisertext p {
+        font-size: 1rem;
+    }
 }
