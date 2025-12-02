@@ -1,7 +1,3 @@
-@font-face {
-  font-family: regfont;
-  src: url("Nexa-ExtraLight.ttf")
-}
 * {
   margin: 0;
   padding: 0;
@@ -11,14 +7,13 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: #f4f4f9;
-  
   margin: 0;
   padding: 0;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #0000008c;
+  background-color: #000000a1;
   padding: 10px 0;
   text-align: center;
   position: sticky;
@@ -29,15 +24,12 @@ body {
   justify-content: center;
   min-height: 48px;
   margin-bottom: 50px;
-  backdrop-filter: blur(25px);
-
 }
 
 .navbar-links {
   list-style: none;
   display: flex;
   gap: 30px;
-  font-family: regfont;
   align-items: center;
   white-space: nowrap;
 }
@@ -50,7 +42,6 @@ body {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
-  font-family: regfont;
   line-height: 1;
   padding: 6px 4px;
   display: inline-block;
@@ -126,7 +117,6 @@ html {
     flex-direction: row;
     justify-content: space-around;
 }
-
 .searchbox {
     display: flex;
     align-items: flex-end;
@@ -142,10 +132,12 @@ html {
     margin-bottom: 50px;
 }
 
-.searchbox input, .searchbox select {
+.searchbox input,
+.searchbox select {
     padding: 5px;
     
 }
+
 
 .background {
     width: 100%;
@@ -163,11 +155,6 @@ html {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  padding: 20px;
-  color: rgba(27, 27, 27, 0.788);
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(20px);
-  border-radius: 10px;
 }
 main {
     display: flex;
@@ -176,41 +163,18 @@ main {
 }
 
 .left-column, .right-column {
-    background-color: rgba(255,255,255, 0.85);
-    margin-top: -60px;
+    background-color: rbga(255,255,255, 0.85);
+    margin-top: 50px;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif; 
+    font-size: 12;
     border: 2px solid black;
-    text-align: left;
-  }
+}
 
 .right-column {
-  text-align: left;
-  border: 2px solid black;
-  border-left: #0000008c;
-  padding-left: 250px;
+    border: 2px solid black;
+    padding-left: 25px;
 }
-
-.right-column h2 {
-  margin-bottom: 10px;
-}
-
-.right-column ul {
-  list-style-position: inside;
-  margin: 0;
-  padding: 0;
-}
-
-.right-column li {
-  margin-bottom: 8px;
-}
-
-.right-column footer {
-  margin-top: 15px;
-  font-size: 0.9rem;
-  color: #333;
-}
-
 
 .topnav {
     z-index: 9999;
@@ -247,112 +211,43 @@ main {
     font-size: 14px;
     text-align: left;
     margin-left: 1rem;
-    border-radius: 8px;
 }
+.hero-image {
+    height: 500px;
 
-/*"volunteer oppurtunity"*/
-.search-hero {
-    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin-bottom: 40px;
-}
 
-.search-hero h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.search-container {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -00vw;
-    padding: 40px 20px;
-    background: #f9f9f9;
-    margin-bottom: 40px;
-}
-
-.search-container .searchbox {
-    max-width: 1320px;
-    margin: 0 auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border: none;
-}
-
-.searchbox .form-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-}
-
-.searchbox label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
-}
-
-.searchbox input,
-.searchbox select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.searchbox .date-range {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-.searchbox button {
-    width: 100%;
-    padding: 12px;
-    background: #667eea;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.searchbox button:hover {
-    background: #5568d3;
-}
-
-@media (max-width: 768px) {
-    .searchbox .form-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .search-hero {
-        height: 200px;
-    }
-    
-    .search-hero h2 {
-        font-size: 24px;
-    }
-}
-#sources {
-  padding-top: 50px;
-  font-family: regfont;
 }
 #aboutus {
-  padding-top: 50px;
-  font-family: regfont;
+    position: relative;
+}
+#sources {
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+ul li {
+    float: left;
 }
 
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ul li a:hover {
+    background-color: #111111;
+}
