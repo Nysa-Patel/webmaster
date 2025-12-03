@@ -224,12 +224,10 @@ main {
 }
 .right-column {
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-  background-color: rgba(255,255,255,0.85);
-  border: 2px solid black;
+  background-image: url('image2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .topnav {
