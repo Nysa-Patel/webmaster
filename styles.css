@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: "Outfit", sans-serif;
   background-color: #f4f4f9;
   scroll-behavior: smooth;
@@ -63,6 +64,7 @@ html, body {
   .navbar-links {
     gap: 16px;
   }
+
   .navbar-links a {
     font-size: 0.7rem;
     padding: 6px 2px;
@@ -78,8 +80,8 @@ html, body {
   justify-content: center;
   text-align: center;
   padding: 0 20px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url('forestlake.avif') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('forestlake.avif') center/cover no-repeat;
   color: white;
   position: relative;
 }
@@ -128,14 +130,28 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  .hero h1 { font-size: 2.2rem; }
-  .hero p { font-size: 1rem; }
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
-  .hero h1 { font-size: 1.8rem; }
-  .hero p { font-size: 0.95rem; }
-  .hero .btn { padding: 10px 20px; font-size: 0.9rem; }
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .hero .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
 }
 
 /* ===== MISSION SECTION ===== */
@@ -178,7 +194,7 @@ html, body {
   width: 100%;
   max-width: 500px;
   border-radius: 18px;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
 
 .mcblurb-stats {
@@ -211,7 +227,7 @@ html, body {
   padding: 25px;
   background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .search-container h2 {
@@ -235,7 +251,7 @@ html, body {
 .searchbox input,
 .searchbox select {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
@@ -246,7 +262,7 @@ html, body {
 .searchbox select:focus {
   border-color: #007bff;
   outline: none;
-  box-shadow: 0 0 5px rgba(0,123,255,0.2);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
 }
 
 .date-range {
@@ -254,11 +270,24 @@ html, body {
   gap: 10px;
 }
 
-.date-range div { flex: 1; }
+.date-range div {
+  flex: 1;
+}
 
-.form-row { display: flex; gap: 20px; }
-.form-left { flex: 2; }
-.form-right { flex: 1; }
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-left div {
+  flex: 2;
+  margin-bottom: 10px;
+}
+
+.form-right div {
+  flex: 1;
+  margin-top: 5px;
+}
 
 button {
   margin-top: 10px;
@@ -272,7 +301,9 @@ button {
   transition: 0.3s ease;
 }
 
-button:hover { background: #0057b396; }
+button:hover {
+  background: #0057b396;
+}
 
 /* ===== FEATURED CARDS ===== */
 .card-grid {
@@ -294,18 +325,27 @@ button:hover { background: #0057b396; }
   padding: 30px;
   background: white;
   border-radius: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   border: 1px solid #eee;
   transition: all 0.3s ease;
 }
 
 .card-grid .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
-.card-grid .card h3 { margin-bottom: 15px; color: #1c5899; font-size: 1.2rem; }
-.card-grid .card p { font-size: 0.95rem; color: #555; line-height: 1.6; }
+.card-grid .card h3 {
+  margin-bottom: 15px;
+  color: #1c5899;
+  font-size: 1.2rem;
+}
+
+.card-grid .card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
 
 .icon-placeholder {
   width: 60px;
@@ -318,7 +358,10 @@ button:hover { background: #0057b396; }
   margin-bottom: 20px;
 }
 
-.icon-placeholder i { color: white; font-size: 22px; }
+.icon-placeholder i {
+  color: white;
+  font-size: 22px;
+}
 
 /* ===== FUNDRAISERS ===== */
 .palfundraiser {
@@ -329,7 +372,9 @@ button:hover { background: #0057b396; }
   margin: 0 auto;
 }
 
-.palfundraisertext { flex: 0.8; }
+.palfundraisertext {
+  flex: 0.8;
+}
 
 .palfundraisertext h2 {
   font-size: 2.5rem;
@@ -349,19 +394,49 @@ button:hover { background: #0057b396; }
   border-radius: 12px;
 }
 
-.cards-container { display: flex; justify-content: center; align-items: center; }
-.cards { width: 300px; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: 0.3s; }
-.cards img { width: 100%; height: auto; display: block; }
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* Fundraiser responsive */
 @media (max-width: 768px) {
-  .palfundraiser { flex-direction: column; padding: 2rem 1rem; gap: 2rem; }
-  .palfundraisertext h2 { font-size: 2rem; }
-  .palfundraisertext p { font-size: 1rem; }
+  .palfundraiser {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .palfundraisertext h2 {
+    font-size: 2rem;
+  }
+
+  .palfundraisertext p {
+    font-size: 1rem;
+  }
 }
 
 /* ===== FOOTER ===== */
-footer { background-color: #dddddd; width: 100%; }
+footer {
+  background-color: #dddddd;
+  width: 100%;
+}
 
 .footer {
   display: flex;

@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: "Outfit", sans-serif;
   background-color: #f4f4f9;
   scroll-behavior: smooth;
@@ -63,19 +64,22 @@ html, body {
   .navbar-links {
     gap: 16px;
   }
+
   .navbar-links a {
     font-size: 0.7rem;
     padding: 6px 2px;
   }
 
-}/* ===== CONTACT PAGE ===== */
+}
+
+/* ===== CONTACT PAGE ===== */
 .contact-container {
   max-width: 900px;
   margin: 80px auto 50px auto;
   padding: 25px;
   background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .contact-container h2 {
@@ -95,8 +99,18 @@ html, body {
   gap: 20px;
 }
 
-.form-left { flex: 2; display: flex; flex-direction: column; gap: 15px; }
-.form-right { flex: 1; display: flex; flex-direction: column; }
+.form-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
 
 .contact-form input,
 .contact-form textarea {
@@ -112,7 +126,7 @@ html, body {
 .contact-form textarea:focus {
   border-color: #007bff;
   outline: none;
-  box-shadow: 0 0 5px rgba(0,123,255,0.2);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
 }
 
 .contact-form button {
