@@ -1,0 +1,147 @@
+/* ===== GLOBAL / RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Outfit", sans-serif;
+  background-color: #f4f4f9;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* ===== FONTS ===== */
+@font-face {
+  font-family: regfont;
+  src: url("Nexa-ExtraLight.ttf");
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #0000008c;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  backdrop-filter: blur(25px);
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: regfont;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 6px 4px;
+  display: inline-block;
+  font-family: regfont;
+  line-height: 1;
+}
+
+.navbar-links a:hover {
+  color: #aac1e6;
+}
+
+/* Navbar responsive */
+@media (max-width: 450px) {
+  .navbar-links {
+    gap: 16px;
+  }
+  .navbar-links a {
+    font-size: 0.7rem;
+    padding: 6px 2px;
+  }
+
+}/* ===== CONTACT PAGE ===== */
+.contact-container {
+  max-width: 900px;
+  margin: 80px auto 50px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.contact-container h2 {
+  text-align: center;
+  color: #1c5899;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form .form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-left { flex: 2; display: flex; flex-direction: column; gap: 15px; }
+.form-right { flex: 1; display: flex; flex-direction: column; }
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  transition: 0.2s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #1c5899;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #0057b396;
+}
+
+.contact-info {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 850px) {
+  .contact-form .form-row {
+    flex-direction: column;
+  }
+}

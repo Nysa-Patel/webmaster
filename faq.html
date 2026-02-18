@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morris County Resource Hub | FAQ</title>
+    <link rel="stylesheet" href="faq.css">
+
+    <nav class="navbar">
+            <ul class="navbar-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#sources">Sources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+</head>
+<body>
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq-item">
+            <div class="faq-question">How do I search for resources?</div>
+            <div class="faq-answer">
+                You can use our search bar on the homepage. Filter by town, distance, category, or keywords to quickly find the resources you need.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Can I suggest a new organization or program?</div>
+            <div class="faq-answer">
+                Yes! Scroll to the bottom of the homepage and use the “Contact Us” form to submit new resources or programs to be added.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Is there a mobile-friendly version?</div>
+            <div class="faq-answer">
+                Absolutely. Our website is fully responsive, so you can access it from any device, including phones and tablets.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Are all resources verified?</div>
+            <div class="faq-answer">
+                We strive to list only trusted and verified organizations. We regularly update information and encourage users to report outdated details.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How can I volunteer?</div>
+            <div class="faq-answer">
+                Check our “Volunteer / Get Involved” page for opportunities, or contact the organization directly through the provided links.
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // FAQ Expand/Collapse
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,107 +1,24 @@
-@font-face {
-  font-family: regfont;
-  src: url("Nexa-ExtraLight.ttf")
-}
+/* ===== GLOBAL / RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-  background-color: #f4f4f9;
-}
-
-body {
+html, body {
   font-family: "Outfit", sans-serif;
   background-color: #f4f4f9;
-  
-  margin: 0;
-  padding: 0;
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
-/* Paint your pet fundraiser stuff*/
-.palfundraiser {
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 20px;
-  max-width: 900px;
-  margin: 0 auto;
-  font-size: 0.9rem;
+/* ===== FONTS ===== */
+@font-face {
+  font-family: regfont;
+  src: url("Nexa-ExtraLight.ttf");
 }
 
-.palfundraiser .cards {
-  margin: 0;
-  width: fit-content;
-}
-
-.palfundraisertext {
-  flex: 1;
-  background: #f4f4f8;
-  padding: 10px;
-  border-radius: 12px;
-  font-size: 0.9rem;
-  font-family: "Outfit", sans-serif;
-}
-
-.palfundraisertext h2 {
-  margin-top: 0;
-  font-size: 0.9rem;
-  align-items: center;
-}
-
-.palfundraiserImg {
-  width: 300px;
-  height: auto;
-  border-radius: 12px;
-  object-fit: cover;
-
-}
-
-
-
-/* mc blurb*/
-.mcblurb{
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 20px;
-  max-width: 1320px;
-  margin: 0 auto;
-  font-size: 0.9rem;
-}
-
-.mcblurb .cards {
-  margin: 0;
-  width: fit-content;
-}
-
-.mcblurbtext {
-  width: 50%;
-  background: #f4f4f8;
-  font-size: 0.9rem;
-  font-family: "Outfit", sans-serif;
-}
-
-.mcblurbtext h2 {
-  margin-top: 0;
-  font-size: 0.9rem;
-  align-items: center;
-}
-
-.mcblurbImg {
-  align-content: center;
-  height: auto;
-  object-fit: cover;
-}
-
-
-/* Navbar */
+/* ===== NAVBAR ===== */
 .navbar {
   background-color: #0000008c;
   padding: 10px 0;
@@ -115,9 +32,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 48px;
-  margin-bottom: 50px;
   backdrop-filter: blur(25px);
-
 }
 
 .navbar-links {
@@ -129,35 +44,21 @@ body {
   white-space: nowrap;
 }
 
-.navbar-links li {
-  display: inline-block;
-}
-
 .navbar-links a {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
-  font-family: regfont;
-  line-height: 1;
   padding: 6px 4px;
   display: inline-block;
+  font-family: regfont;
+  line-height: 1;
 }
 
 .navbar-links a:hover {
   color: #aac1e6;
 }
 
-@media (max-width: 560px) {
-  .navbar-links {
-    gap: 16px;
-  }
-  .navbar-links a {
-    font-size: 0.8rem;
-    padding: 6px 2px;
-  }
-}
-
-/* Responsive Navbar */
+/* Navbar responsive */
 @media (max-width: 450px) {
   .navbar-links {
     gap: 16px;
@@ -168,483 +69,304 @@ body {
   }
 }
 
-@media (max-width: 400px) {
-  .navbar-links {
-    gap: 16px;
-  }
-  .navbar-links a {
-    font-size: 0.6rem;
-    padding: 6px 2px;
-  }
+/* ===== HERO ===== */
+.hero {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('forestlake.avif') center/cover no-repeat;
+  color: white;
+  position: relative;
 }
 
-
-@media (max-width: 360px) {
-  .navbar-links {
-    gap: 12px;
-  }
-  .navbar-links a {
-    font-size: 0.575rem;
-    padding: 6px 2px;
-  }
+.hero-content {
+  max-width: 800px;
+  z-index: 2;
 }
 
-
-html {
-    font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
-    
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
 }
 
-#aboutus .card .container {
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: normal;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    padding: 20px;
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
 }
 
-.card{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-around;
+.hero .btn {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  background-color: #1c5899;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #0057b3;
+  transform: translateY(-2px);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.2rem; }
+  .hero p { font-size: 1rem; }
+}
+
+@media (max-width: 480px) {
+  .hero h1 { font-size: 1.8rem; }
+  .hero p { font-size: 0.95rem; }
+  .hero .btn { padding: 10px 20px; font-size: 0.9rem; }
+}
+
+/* ===== MISSION SECTION ===== */
+.mission-section {
+  padding: 100px 10%;
+  background-color: #f8fafc;
+}
+
+.mission-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.mission-text {
+  flex: 1;
+}
+
+.mission-text h2 {
+  font-size: 2rem;
+  color: #1e3a5f;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.mission-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.mission-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.mission-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+.mcblurb-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1e3a5f;
+}
+
+.label {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ===== SEARCH FORM ===== */
+.search-container {
+  max-width: 60%;
+  margin: 50px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.search-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
 }
 
 .searchbox {
-    display: flex;
-    align-items: flex-end;
-    gap: 10px;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 3px solid black;
-    padding: 10px;
-    bottom: 0;
-    left: 0;
-    align-items: center;
-    margin-bottom: 30px;
-    background-color: #f4f4f9;
-}
-
-.searchbox input, .searchbox select {
-    padding: 5px;
-    
-}
-
-.background {
-    width: 100%;
-    height: 50vh;
-    background-image: url('banner.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.header {
-  position: absolute;
-  top: 10px;
-  left: 10px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 20px;
-  color: rgba(27, 27, 27, 0.788);
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(20px);
-  border-radius: 10px;
-}
-main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.left-column, .right-column {
-    background-color: rgba(255,255,255, 0.85);
-    margin-top: -60px;
-    padding: 20px;
-    font-family: 'Times New Roman', Times, serif; 
-    border: 2px solid black;
-    text-align: left;
-    
-  }
-.left-column {
-  flex: 2;          
-  padding: 20px;
-}
-.right-column {
-  flex: 1;
-  background-image: url('image2.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.topnav {
-    z-index: 9999;
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.search-container {
-    position: absolute;
-    left: 0;
-    right: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.searchbar {
-    padding: 10px;
-    padding-right: 35px;
-    font-size: 14px;
-    text-align: left;
-    flex: 1;
-}
-
-.search-icon {
-    position: absolute;
-    right: 10px;
-    font-family: "Outfit", sans-serif;
-    pointer-events: none;
-    font-size: 16px;
-}
-
-.towndropdown {
-    padding: 10px;
-    padding-right: 30px;
-    font-size: 14px;
-    text-align: left;
-    margin-left: 1rem;
-    border-radius: 8px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-color: white;
-    border: 1px solid #ddd;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"><path fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M1 1.5l5 5 5-5"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 12px;
-}
-
-/*"volunteer oppurtunity"*/
-.search-hero {
-    width: 100vw;
-    position: relative;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin-bottom: 40px;
-}
-
-.search-hero h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.search-container {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -00vw;
-    background: #f4f4f9;
-    margin-bottom: 20px;
-}
-
-.search-container .searchbox {
-    max-width: 1320px;
-    margin: 0 auto;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border: none;
-}
-
-.searchbox .form-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+  gap: 15px;
 }
 
 .searchbox label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #444;
 }
 
 .searchbox input,
 .searchbox select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-.searchbox select {
-    padding-right: 30px;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"><path fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M1 1.5l5 5 5-5"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 12px;
-}
-
-.searchbox .date-range {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-.searchbox button {
-    width: 100%;
-    padding: 12px;
-    background: #667eea;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.searchbox button:hover {
-    background: #5568d3;
-}
-
-@media (max-width: 768px) {
-    .searchbox .form-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .search-hero {
-        height: 200px;
-    }
-    
-    .search-hero h2 {
-        font-size: 24px;
-    }
-}
-#sources {
-  padding-top: 50px;
-  font-family: regfont;
-}
-#aboutus {
-  padding-top: 50px;
-  font-family: regfont;
-}
-.container{
-  background-color: #A7C7E7;
-  
-}
-
-/*cards*/
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-/* Card link wrapper - makes entire card clickable */
-.cards-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.cards-link:hover {
-  transform: translateY(-5px);
-}
-
-/* 🔹 Individual card styling */
-.cards {
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px;
-  width: 300px;
-  margin: 10px;
-  cursor: default;
-}
-
-/* Hover effect */
-.cards:hover {
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
-
-/* Inner content padding */
-.container {
-  padding: 16px;
-}
-
-/* Rounded image corners */
-.cards img {
-  border-radius: 5px 5px 0 0;
-}
-
-/* Responsive Image */
-.responsive-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.cookietext{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-.cookieimage{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-/* event 2 */
-.palfundraiser {
-    display: flex;
-    gap: 3rem;
-    padding: 4rem 2rem;
-    max-width: 1500px;
-    margin: 0 auto;
-}
-
-.palfundraisertext {
-    flex: 0.8;
-}
-
-.palfundraisertext h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: #2c3e50;
-}
-
-.palfundraisertext p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #555;
-}
-
-.cards-container {
-    flex: 0.8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cards {
-    width: 100%;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.palfundraiserImg {
-    width: 100%;
-    display: block;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .palfundraiser {
-        flex-direction: column;
-        padding: 2rem 1rem;
-        gap: 2rem;
-    }
-    
-    .palfundraisertext {
-        padding-right: 0;
-    }
-    
-    .palfundraisertext h2 {
-        font-size: 2rem;
-    }
-
-    .palfundraisertext p {
-        font-size: 1rem;
-    }
-}
-
-/* Left content */
-.left-column {
-  flex: 2;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  font-family: "Outfit", sans-serif;
-  line-height: 1.6;
-  font-size: 1rem;
-}
-
-/* Right image card */
-.right-column {
-  flex: 1;
-  background: white;
+  width: 100%;
   padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.searchbox input:focus,
+.searchbox select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
+.date-range {
   display: flex;
+  gap: 10px;
+}
+
+.date-range div { flex: 1; }
+
+.form-row { display: flex; gap: 20px; }
+.form-left { flex: 2; }
+.form-right { flex: 1; }
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  background: #1c5899;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover { background: #0057b396; }
+
+/* ===== FEATURED CARDS ===== */
+.card-grid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+
+.card-grid .card {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  width: 28%;
+  height: 260px;
+  padding: 30px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
 }
 
-.right-column img {
-  width: 100%;
-  border-radius: 6px;
-  object-fit: cover;
+.card-grid .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
 }
 
-/* Mobile responsive */
-@media (max-width: 850px) {
-  main {
-    flex-direction: column;
-  }
+.card-grid .card h3 { margin-bottom: 15px; color: #1c5899; font-size: 1.2rem; }
+.card-grid .card p { font-size: 0.95rem; color: #555; line-height: 1.6; }
 
-  .right-column {
-    width: 100%;
-  }
-}
-
-.cards img {
-  width: 100%;
-  display: block;
-}
-.blurb {
-  font-family: regfont;
-  font-weight: bold;
-}
-
-footer {
-  background-color: #dddddd;
-  width: 100%;
-}
-
-.footer {
+.icon-placeholder {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #1c5899;
   display: flex;
-  flex-direction: column  ;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon-placeholder i { color: white; font-size: 22px; }
+
+/* ===== FUNDRAISERS ===== */
+.palfundraiser {
+  display: flex;
+  gap: 3rem;
   padding: 4rem 2rem;
   max-width: 1500px;
   margin: 0 auto;
 }
 
-.footer p {
-  margin-top: 0.5rem;
+.palfundraisertext { flex: 0.8; }
+
+.palfundraisertext h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.palfundraisertext p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.palfundraiserImg {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.cards-container { display: flex; justify-content: center; align-items: center; }
+.cards { width: 300px; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: 0.3s; }
+.cards img { width: 100%; height: auto; display: block; }
+
+/* Fundraiser responsive */
+@media (max-width: 768px) {
+  .palfundraiser { flex-direction: column; padding: 2rem 1rem; gap: 2rem; }
+  .palfundraisertext h2 { font-size: 2rem; }
+  .palfundraisertext p { font-size: 1rem; }
+}
+
+/* ===== FOOTER ===== */
+footer { background-color: #dddddd; width: 100%; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 2rem;
+  max-width: 1500px;
+  margin: 0 auto;
 }
