@@ -1,203 +1,156 @@
-/* ===== GLOBAL / RESET ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* ── RESET & BASE ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ===== THEME VARIABLES ===== */
+:root {
+
+  /* Primary Blues */
+  --blue-dark: #1E3A8A;
+  --blue-primary: #3c5487;
+  --blue-accent: #60A5FA;
+
+  /* Light Backgrounds */
+  --blue-light: #DBEAFE;
+  --blue-very-light: #F0F7FF;
+
+  /* Text */
+  --text-dark: #0F172A;
+  --text-medium: #334155;
+  --text-light: #E0ECFF;
+
+  /* Base */
+  --white: #FFFFFF;
+
+  /* Shadows */
+  --shadow-soft: 0 6px 18px rgba(37, 99, 235, 0.15);
+  --shadow-medium: 0 12px 28px rgba(37, 99, 235, 0.25);
+
+  /* Borders */
+  --border-light: 1px solid var(--blue-light);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
 }
 
-html,
+
 body {
-  font-family: "Outfit", sans-serif;
-  background-color: #f4f4f9;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+  background: #e2e4e7;
+  color: rgba(180, 200, 235, 0.8);
+  font-family: regfont, sans-serif;
+  min-height: 100vh;
 }
 
-/* ===== FONTS ===== */
-@font-face {
-  font-family: regfont;
-  src: url("Nexa-ExtraLight.ttf");
+/* ── CONTACT SECTION ── */
+.contact-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 24px 60px;
 }
 
-/* ===== NAVBAR ===== */
-.navbar {
-background-color: #0000008c;
-padding: 10px 0;
-text-align: center;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-z-index: 999;
-display: flex;
-align-items: center;
-justify-content: center;
-min-height: 48px;
-backdrop-filter: blur(25px);
+.contact-content {
+  width: 100%;
+  max-width: 560px;
+  animation: rise 0.5s ease both;
 }
 
-.navbar-links {
-list-style: none;
-display: flex;
-gap: 30px;
-font-family: regfont;
-align-items: center;
-white-space: nowrap;
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-.navbar-links a {
-color: white;
-text-decoration: none;
-font-size: 0.8rem;
-padding: 6px 4px;
-display: inline-block;
-font-family: regfont;
-line-height: 1;
-}
-
-.navbar-links a:hover {
-color: #aac1e6;
-}
-
-/* Navbar responsive */
-@media (max-width: 450px) {
-.navbar-links {
-  gap: 16px;
-}
-
-.navbar-links a {
-  font-size: 0.7rem;
-  padding: 6px 2px;
-}
-}
-
-
-/* The dropdown container */
-.dropdown {
-float: left;
-overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-border: none;
-outline: none;
-color: white;
-padding: 14px 16px;
-background-color: inherit;
-font-family: inherit; /* Important for vertical align on mobile phones */
-margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-float: none;
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-text-align: left;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-display: block;
-}
-
-/* ===== CONTACT PAGE ===== */
-.contact-container {
-  max-width: 900px;
-  margin: 80px auto 50px auto;
-  padding: 25px;
+/* ── CARD ── */
+.contact-card {
   background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  padding: 48px 44px;
 }
 
-.contact-container h2 {
-  text-align: center;
-  color: #1c5899;
-  margin-bottom: 30px;
+.contact-card h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgba(210, 228, 255, 0.9);
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+/* ── FORM ── */
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-
-.contact-form .form-row {
-  display: flex;
-  gap: 20px;
-}
-
-.form-left {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.form-right {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  gap: 0;
 }
 
 .contact-form input,
 .contact-form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
   width: 100%;
-  transition: 0.2s ease;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 0;
+  outline: none;
+  color: rgba(6, 18, 35, 0.85);
+  font-family: regfont, sans-serif;
+  font-size: 0.88rem;
+  padding: 16px 0;
+  transition: border-color 0.2s ease, color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(6, 18, 35, 0.85);
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #007bff;
-  outline: none;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  color: rgba(6, 18, 35, 0.85);
+  color: rgba(220, 235, 255, 0.95);
 }
 
-.contact-form button {
-  width: 100%;
-  padding: 12px;
-  background: #1c5899;
-  border: none;
-  color: white;
-  font-size: 16px;
-  border-radius: 6px;
+.contact-form textarea {
+  resize: none;
+  line-height: 1.65;
+  padding-top: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* ── SUBMIT BUTTON ── */
+.contact-form button[type="submit"] {
+  align-self: flex-end;
+  margin-top: 28px;
+  background: none;
+  border: 1px solid rgba(91, 141, 238, 0.3);
+  color: rgba(6, 18, 35, 0.85);
+  font-family: regfont, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px 26px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 
-.contact-form button:hover {
-  background: #0057b396;
+.contact-form button[type="submit"]:hover {
+  background-color: rgba(91, 141, 238, 0.5);
+  border-color: rgba(91, 141, 238, 0.08);
+  color: rgba(168, 200, 255, 0.9);
 }
 
-.contact-info {
-  margin-top: 40px;
-  text-align: center;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #444;
-}
+/* ── RESPONSIVE ── */
+@media (max-width: 520px) {
+  .contact-card {
+    padding: 32px 24px;
+  }
 
-/* Responsive */
-@media (max-width: 850px) {
-  .contact-form .form-row {
-    flex-direction: column;
+  .contact-card h2 {
+    font-size: 1.2rem;
   }
 }
