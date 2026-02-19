@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: "Outfit", sans-serif;
   background-color: #f4f4f9;
   scroll-behavior: smooth;
@@ -20,42 +21,97 @@ html, body {
 
 /* ===== NAVBAR ===== */
 .navbar {
-  background-color: #0000008c;
-  padding: 10px 0;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 48px;
-  backdrop-filter: blur(25px);
+background-color: #0000008c;
+padding: 10px 0;
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 999;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 48px;
+backdrop-filter: blur(25px);
 }
 
 .navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  font-family: regfont;
-  align-items: center;
-  white-space: nowrap;
+list-style: none;
+display: flex;
+gap: 30px;
+font-family: regfont;
+align-items: center;
+white-space: nowrap;
 }
 
 .navbar-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 0.8rem;
-  padding: 6px 4px;
-  display: inline-block;
-  font-family: regfont;
-  line-height: 1;
+color: white;
+text-decoration: none;
+font-size: 0.8rem;
+padding: 6px 4px;
+display: inline-block;
+font-family: regfont;
+line-height: 1;
 }
 
 .navbar-links a:hover {
-  color: #aac1e6;
+color: #aac1e6;
+}
+
+/* Navbar responsive */
+@media (max-width: 450px) {
+.navbar-links {
+  gap: 16px;
+}
+
+.navbar-links a {
+  font-size: 0.7rem;
+  padding: 6px 2px;
+}
+}
+
+
+/* The dropdown container */
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
 }
 
 /* Navbar responsive */

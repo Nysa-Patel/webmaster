@@ -119,3 +119,15 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 100px;
+  color: #333;
+}
+
+.references{
+  padding-top: 200px;
+}
