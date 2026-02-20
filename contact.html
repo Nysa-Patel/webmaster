@@ -24,22 +24,28 @@
   </nav>
 
   <section class="contact-section">
-    <div class="contact-content">
+    <div class="contact-card">
+      <div class="contact-grid">
 
-      <!-- LEFT COLUMN: Form -->
-      <div class="contact-left">
-        <div class="contact-card">
+        <!-- LEFT SIDE -->
+        <div class="contact-text">
           <h2>Send Us a Message</h2>
-          <form class="contact-form" action="#" method="POST">
-            <input type="text" name="name" placeholder="Full Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <textarea name="message" rows="6" placeholder="Type your message..." required></textarea>
-            <button type="submit">Send Message</button>
-          </form>
+          <p>
+            Have a question or project in mind?
+            Fill out the form and we’ll get back to you shortly.
+          </p>
         </div>
-      </div>
 
+        <!-- RIGHT SIDE -->
+        <form class="contact-form" action="#" method="POST">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" placeholder="Type your message..." required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+      </div>
     </div>
   </section>
 </body>

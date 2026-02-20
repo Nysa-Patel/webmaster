@@ -1,5 +1,11 @@
 /* ── RESET & BASE ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /* ===== THEME VARIABLES ===== */
 :root {
@@ -39,27 +45,35 @@ body {
   background: #e2e4e7;
   color: rgba(180, 200, 235, 0.8);
   font-family: regfont, sans-serif;
-  min-height: 100vh;
+  min-height: 70vh;
+
 }
 
 /* ── CONTACT SECTION ── */
 .contact-section {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 110px 24px 60px;
+  padding: 110px;
 }
 
 .contact-content {
   width: 100%;
-  max-width: 560px;
+  max-width: 95%;
   animation: rise 0.5s ease both;
 }
 
 @keyframes rise {
-  from { opacity: 0; transform: translateY(14px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ── CARD ── */
@@ -67,7 +81,7 @@ body {
   background: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 12px;
-  padding: 48px 44px;
+  padding: 36px 40px;
 }
 
 .contact-card h2 {
@@ -98,9 +112,11 @@ body {
   color: rgba(6, 18, 35, 0.85);
   font-family: regfont, sans-serif;
   font-size: 0.88rem;
-  padding: 16px 0;
+  padding: 10px 0;
   transition: border-color 0.2s ease, color 0.2s ease;
   -webkit-appearance: none;
+  resize: vertical;
+  min-height: 120px;
 }
 
 .contact-form input::placeholder,
@@ -142,6 +158,20 @@ body {
   background-color: rgba(91, 141, 238, 0.5);
   border-color: rgba(91, 141, 238, 0.08);
   color: rgba(168, 200, 255, 0.9);
+}
+
+.contact-grid {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-form {
+  flex: 1;
 }
 
 /* ── RESPONSIVE ── */
