@@ -9,27 +9,29 @@
 
 /* ===== THEME VARIABLES ===== */
 :root {
-
   /* Primary Blues */
-  --blue-dark: #1E3A8A;
-  --blue-primary: #3c5487;
-  --blue-accent: #60A5FA;
+  --blue-dark: #1a3a6e;
+  /* deep royal, grounded anchor */
+  --blue-primary: #2f5fc4;
+  /* true royal blue, vibrant but refined */
+  --blue-accent: #a8d4f5;
+  /* icy sky, crisp highlight */
 
   /* Light Backgrounds */
-  --blue-light: #DBEAFE;
-  --blue-very-light: #F0F7FF;
+  --blue-light: #dce8fb;
+  --blue-very-light: #f0f6ff;
 
   /* Text */
-  --text-dark: #0F172A;
-  --text-medium: #334155;
-  --text-light: #E0ECFF;
+  --text-dark: #0d1b3e;
+  --text-medium: #2e4580;
+  --text-light: #ddeeff;
 
   /* Base */
   --white: #FFFFFF;
 
   /* Shadows */
-  --shadow-soft: 0 6px 18px rgba(37, 99, 235, 0.15);
-  --shadow-medium: 0 12px 28px rgba(37, 99, 235, 0.25);
+  --shadow-soft: 0 6px 18px rgba(47, 95, 196, 0.15);
+  --shadow-medium: 0 12px 28px rgba(47, 95, 196, 0.25);
 
   /* Borders */
   --border-light: 1px solid var(--blue-light);
@@ -40,13 +42,11 @@
   --radius-lg: 16px;
 }
 
-
 body {
   background: #e2e4e7;
   color: rgba(180, 200, 235, 0.8);
   font-family: regfont, sans-serif;
   min-height: 70vh;
-
 }
 
 /* ── CONTACT SECTION ── */
@@ -55,7 +55,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 110px;
+  padding: 60px 40px;
+}
+
+/* ── RESPONSIVE PADDING ── */
+@media (min-width: 769px) {
+  .contact-section {
+    padding: 80px 60px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .contact-section {
+    padding: 110px;
+  }
 }
 
 .contact-content {
@@ -77,8 +90,11 @@ body {
 }
 
 /* ── CARD ── */
+/* Dark glass card — consistent with input/text styles */
 .contact-card {
-  background: #ffffff;
+  background: var(--blue-dark);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 12px;
   padding: 36px 40px;
@@ -98,52 +114,39 @@ body {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 0.55rem;
+  flex: 1;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-  border-radius: 0;
-  outline: none;
-  color: rgba(6, 18, 35, 0.85);
+  color: rgba(200, 200, 200, 0.7);
+  border-color: rgba(91, 141, 238, 0.7);
+  background-color: rgba(91, 141, 238, 0.1);
+  border: 1px solid rgba(91, 141, 238, 0.7);
+  border-radius: 6px;
   font-family: regfont, sans-serif;
-  font-size: 0.88rem;
-  padding: 10px 0;
-  transition: border-color 0.2s ease, color 0.2s ease;
-  -webkit-appearance: none;
-  resize: vertical;
-  min-height: 120px;
-}
-
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-  color: rgba(6, 18, 35, 0.85);
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  color: rgba(6, 18, 35, 0.85);
-  color: rgba(220, 235, 255, 0.95);
+  font-size: 0.85rem;
+  padding: 8px 12px;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
 
 .contact-form textarea {
   resize: none;
-  line-height: 1.65;
-  padding-top: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  line-height: 1.5;
+  min-height: 100px;
+  padding-top: 12px;
 }
 
 /* ── SUBMIT BUTTON ── */
 .contact-form button[type="submit"] {
   align-self: flex-end;
   margin-top: 28px;
-  background: none;
-  border: 1px solid rgba(91, 141, 238, 0.3);
-  color: rgba(6, 18, 35, 0.85);
+  background-color: rgba(91, 141, 238, 0.1);
+  color: rgba(210, 228, 255, 0.9);
+  border: 1px solid rgba(91, 141, 238, 0.7);
   font-family: regfont, sans-serif;
   font-size: 0.72rem;
   letter-spacing: 0.1em;
@@ -155,26 +158,31 @@ body {
 }
 
 .contact-form button[type="submit"]:hover {
-  background-color: rgba(91, 141, 238, 0.5);
-  border-color: rgba(91, 141, 238, 0.08);
-  color: rgba(168, 200, 255, 0.9);
+  background-color: rgba(91, 141, 238, 0.28);
+  border-color: rgba(91, 141, 238, 0.9);
+  color: #ffffff;
 }
 
+/* ── GRID LAYOUT ── */
 .contact-grid {
   display: flex;
-  gap: 60px;
+  gap: 48px;
   align-items: flex-start;
+}
+
+/* Stack grid vertically on medium screens */
+@media (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+    gap: 32px;
+  }
 }
 
 .contact-text {
   flex: 1;
 }
 
-.contact-form {
-  flex: 1;
-}
-
-/* ── RESPONSIVE ── */
+/* ── SMALL SCREEN ── */
 @media (max-width: 520px) {
   .contact-card {
     padding: 32px 24px;

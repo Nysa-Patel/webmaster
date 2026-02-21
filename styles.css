@@ -189,6 +189,7 @@ body {
 .dropdown-content a:hover::before {
   transform: scaleY(1);
 }
+
 /* ===== HERO ===== */
 .hero {
   width: 100%;
@@ -227,7 +228,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  
+
 }
 
 .hero .btn {
@@ -278,6 +279,24 @@ body {
     padding: 10px 20px;
     font-size: 0.9rem;
   }
+}
+
+.overscroll-wrap {
+  position: relative;
+}
+
+.hero {
+  position: sticky;
+  top: 0;
+  height: 90vh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.mission-section {
+  position: relative;
+  z-index: 1;
+  background: var(--white);
 }
 
 /* ===== MISSION SECTION ===== */
