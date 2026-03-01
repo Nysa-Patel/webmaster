@@ -305,16 +305,17 @@
                     Khieu</p>
             </div>
         </footer>
+
         <script>
             let eventsData = [];
             //get JSON
             fetch("data.json")
-                .then(result => result.json)
+                .then(result => result.json())
                 .then(data => {
                     eventsData = data;
                 });
             
-            document.getElementByID("submit").addEventListener("click", function() {
+            document.getElementById("submit").addEventListener("click", function() {
                 const town= document.getElementById("inputTown").value.toLowerCase();
                 const keyword = document.getElementById("inputKeyword").value.toLowerCase();
                 const fromDate = document.getElementById("from").value;
@@ -338,17 +339,17 @@
                     let matchDate = true;
 
                     if(from) {
-                        matchDate = eventEnd >= fromDate;
+                        matchDate = eventend >= from;
 
                     }
                     if(to) {
-                        matchesDate = matchesDate && eventStart <= toDate;    
+                        matchesDate = matchesDate && eventStart <= to;    
                     }
-                    return matchTown && matchKeyword && matcheDate;
+                    return matchTown && matchKeyword && matchDate;
                 })
                 displayResults(filtered);
             });
-            function display(events) {
+            function displayResults(filtered) {
                 const resdiv = document.getElementById("results");
                 resdiv.innerHTML = "";
                 if (events.length ===0) {
@@ -366,7 +367,7 @@
                     <p><strong>Category:</strong> ${event.category}</p>
                     <a href="${event.url}" target="_blank">View Event</a>
                     `;
-                    resultsDiv.appendChild(div);
+                    resdiv.appendChild(div);
 
 
 
