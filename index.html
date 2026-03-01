@@ -176,6 +176,7 @@
                 <button id="submit">Search</button>
             </form>
         </div>
+        <div id="results"></div>
 
         <!-- FEATURED -->
         <section class="section alt-bg">
@@ -300,10 +301,78 @@
         <footer>
             <div class="footer">
                 <h1>Morris County Resource Hub</h1>
-                <p>By Nysa Vadaliya, Nysa Patel, Ekansh Simgekar, Elizabeth Elden, Mahalakshmi Kancharlapalli, and Ryan
+                <p>By Nysa Vadaliya, Nysa Patel, Elizabeth Elden, Mahalakshmi Kancharlapalli, and Ryan
                     Khieu</p>
             </div>
         </footer>
+        <script>
+            let eventsData = [];
+            //get JSON
+            fetch("data.json")
+                .then(result => result.json)
+                .then(data => {
+                    eventsData = data;
+                });
+            
+            document.getElementByID("submit").addEventListener("click", function() {
+                const town= document.getElementById("inputTown").value.toLowerCase();
+                const keyword = document.getElementById("inputKeyword").value.toLowerCase();
+                const fromDate = document.getElementById("from").value;
+                const toDate = document.getElementById("to").value;
+
+                const filtered = eventsData.filter(event => {
+                    //dates
+                    const eventStart = event.date || event.start_date;
+                    const eventend = event.end_date || event.date;
+
+                    //town
+                    const matchTown = town === "" ||
+                        (event.location && event.location.toLowerCase().includes(town));
+                    
+                    //keword
+                    const matchKeyword = keyword === "" ||
+                        event.name.toLowerCase().includes(keyword) ||
+                        (event.category && event.category.toLowerCase().includes(keyword));
+
+                    //date
+                    let matchDate = true;
+
+                    if(from) {
+                        matchDate = eventEnd >= fromDate;
+
+                    }
+                    if(to) {
+                        matchesDate = matchesDate && eventStart <= toDate;    
+                    }
+                    return matchTown && matchKeyword && matcheDate;
+                })
+                displayResults(filtered);
+            });
+            function display(events) {
+                const resdiv = document.getElementById("results");
+                resdiv.innerHTML = "";
+                if (events.length ===0) {
+                    resdiv.innerHTML = "<p>No events</p>";
+                    return;
+                }
+                events.forEach(event => {
+                    const div = document.createElement("div");
+                    div.classList.add("card");
+
+                    div.innerHTML = `
+                    <h3>${event.name}</h3>
+                    <p><strong>Date:</strong> ${event.date || event.start_date}</p>
+                    <p><strong>Location:</strong> ${event.location}</p>
+                    <p><strong>Category:</strong> ${event.category}</p>
+                    <a href="${event.url}" target="_blank">View Event</a>
+                    `;
+                    resultsDiv.appendChild(div);
+
+
+
+                });
+            }
+        </script>
     </body>
 
 </html>
