@@ -321,8 +321,8 @@
             document.getElementById("submit").addEventListener("click", () => {
                 const town= document.getElementById("inputTown").value.toLowerCase();
                 const keyword = document.getElementById("inputKeyword").value.toLowerCase();
-                const fromDate = document.getElementById("from").value;
-                const toDate = document.getElementById("to").value;
+                const fromDateInput = document.getElementById("from").value;
+                const toDateInput = document.getElementById("to").value;
 
                 const filtered = eventsData.filter(event => {
                     //dates
