@@ -193,3 +193,7 @@ body {
 .dropdown-content a:hover::before {
   transform: scaleY(1);
 }
+
+#references {
+  padding-top: 60px;
+}
