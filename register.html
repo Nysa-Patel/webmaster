@@ -8,40 +8,142 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TSA Webmaster 25-26</title>
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="js" href="script.js" 
-            href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="register.css">
+        <href="https: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="js" href="script.js"
+                href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap"
+                rel="stylesheet">
     </head>
 
     <body>
         <nav class="navbar">
             <ul class="navbar-links">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="volunteer.html">Volunteer</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="references.html">References</a></li>
-                <li><a href="register.html">Sign In</a></li>
+                <li><a href="register.html" class="active">Sign In</a></li>
             </ul>
         </nav>
-    <div class="login-container">
-        <h2>Log In</h2>
-        <form class="login" action="#" method="GET">
-            <div class="form-row">
-                <div>
-                    <label style="margin-top: 10px;">Username:</label>
-                    <input type="text" name="username" placeholder="Enter username">
-                </div>
-                <div>
-                    <label>Password:</label>
-                    <input type="password" name="password" placeholder="Enter password">
-                </div>
+        <div class="auth-card">
+
+            <div class="tabs" role="tablist">
+                <button class="tab-btn active" role="tab" aria-selected="true" data-tab="login">Log In</button>
+                <button class="tab-btn" role="tab" aria-selected="false" data-tab="register">Sign Up</button>
             </div>
-            <button type="submit">Search</button>
-        </form>
-    </div>
-</body>
+
+            <!-- ══════════ LOG IN PANEL ══════════ -->
+            <div class="tab-panel active" id="panel-login" role="tabpanel">
+                <h2 class="panel-title">Welcome back</h2>
+                <p class="panel-sub"></p>
+
+                <form id="login-form" action="#" method="GET" onsubmit="return false;">
+                    <div class="field">
+                        <label for="login-username">Username</label>
+                        <input type="text" id="login-username" name="username" placeholder="Enter your username"
+                            autocomplete="username">
+                    </div>
+
+                    <div class="field">
+                        <label for="login-password">Password</label>
+                        <div class="input-wrap">
+                            <input type="password" id="login-password" name="password" class="has-toggle"
+                                placeholder="Enter your password" autocomplete="current-password">
+                            <button type="button" class="toggle-pw" data-target="login-password"
+                                aria-label="Show password">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Log In</button>
+                </form>
+
+                <p class="switch-hint">Don't have an account? <a onclick="switchTab('register')">Sign up here</a></p>
+            </div>
+
+            <!-- ══════════ SIGN UP PANEL ══════════ -->
+            <div class="tab-panel" id="panel-register" role="tabpanel">
+                <h2 class="panel-title">Create account</h2>
+                <form id="reg-form" action="#" method="GET" onsubmit="return handleRegister(event);">
+
+                    <!-- Personal Info -->
+                    <p class="form-section">Personal Information</p>
+
+                    <div class="field-row">
+                        <div class="field">
+                            <label for="reg-first">First Name</label>
+                            <input type="text" id="reg-first" name="first_name" placeholder="First" required>
+                        </div>
+                        <div class="field">
+                            <label for="reg-last">Last Name</label>
+                            <input type="text" id="reg-last" name="last_name" placeholder="Last" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="reg-email">Email Address</label>
+                        <input type="email" id="reg-email" name="email" placeholder="you@example.com"
+                            autocomplete="email" required>
+                        <span class="field-hint" id="email-hint"></span>
+                    </div>
+
+                    <!-- Account Info -->
+                    <p class="form-section">Account Details</p>
+
+                    <div class="field">
+                        <label for="reg-username">Username</label>
+                        <input type="text" id="reg-username" name="username"
+                            placeholder="Choose a username (min. 4 characters)" autocomplete="username" minlength="4"
+                            required>
+                        <span class="field-hint" id="username-hint"></span>
+
+                        <label for="reg-password">Create Password</label>
+                        <div class="input-wrap">
+                            <input type="password" id="reg-password" name="password" class="has-toggle"
+                                placeholder="Create a strong password" autocomplete="new-password" required>
+                            <button type="button" class="toggle-pw" data-target="reg-password"
+                                aria-label="Show password">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                        </div>
+
+                        <!-- Requirements checklist -->
+                        <ul class="pw-rules" id="pw-rules">
+                            <li id="rule-length"><span class="rule-icon"></span>8+ characters</li>
+                            <li id="rule-upper"><span class="rule-icon"></span>Uppercase letter</li>
+                            <li id="rule-lower"><span class="rule-icon"></span>Lowercase letter</li>
+                            <li id="rule-number"><span class="rule-icon"></span>Number</li>
+                        </ul>
+                    </div>
+
+                    <button type="submit" class="btn-submit" id="reg-submit">Create Account</button>
+                </form>
+
+                <p class="switch-hint">Already have an account? <a onclick="switchTab('login')">Log in</a></p>
+            </div><!-- /register panel -->
+
+        </div><!-- /auth-card -->
+    </body>
+</div><!-- /background -->
+
+<script>
+    /* ── Tab switching ── */
+    function switchTab(name) {
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            const active = btn.dataset.tab === name;
+            btn.classList.toggle('active', active);
+            btn.setAttribute('aria-selected', String(active));
+        });
+        document.querySelectorAll('.tab-panel').forEach(panel => {
+            panel.classList.toggle('active', panel.id === 'panel-' + name);
+        });
+    }
+    document.querySelectorAll('.tab-btn').forEach(btn =>
+        btn.addEventListener('click', () => switchTab(btn.dataset.tab))
+    );
+</script>
