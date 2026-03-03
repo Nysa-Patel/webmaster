@@ -573,6 +573,52 @@ button:hover {
   position: relative;
   overflow: hidden;
 }
+/* SEARCHBAR result CARDS */
+.event-card {
+  background: #0F172A;
+  color: white;
+  width: 320px;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.event-card a {
+  margin-top: 12px;
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.event-card a:hover {
+  background: black;
+  color: white;
+}
+
+.event-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  background: #334155;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+}
+.allresults-section {
+  background: #000;
+  padding: 50px 30px;
+  margin-top: 40px;
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
 
 
 

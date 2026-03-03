@@ -181,7 +181,10 @@
                 <button type ="button" id="submit">Search</button>
             </form>
         </div>
-        <div id="results"></div>
+        <div class ="allresults-section">
+            <div id="results"></div>
+        </div>
+        
 
         <!-- FEATURED -->
         <section class="section alt-bg featured-section">
@@ -220,40 +223,6 @@
             </div>
         </section>
 
-        <!--
-<div id="aboutus">
-   <h2>About us</h2>
-   <div class="card">
-       <div class="container">
-          
-           <h4><b> Ekansh Simgekar </b></h4>
-           <p> Sophomore in the Academy of Computer Science with an avid interest in web design. Other interests are in
-               fields like robotics, cybersecurity, and the sciences. </p>
-       </div>
-       <div class="container">
-           <h4><b> Nysa Patel </b></h4>
-           <p>Sophomore in the Academy of Computer Science with a passion for computer science and AI. Hobbies are
-              robotics, and helping businesses be more efficient.</p>
-       </div>
-       <div class="container">
-           <h4><b> Nysa Vadaliya</b></h4>
-           <p> Sohpmore in the Academy of Computer Science. Other passions include running, coding, research, and teaching kids how to code at CodeNinjas. </p>
-       </div>
-       <div class="container">
-           <h4><b> Ryan Khieu </b></h4>
-           <p> Veer managt </p>
-       </div>
-       <div class="container">
-           <h4><b> Elizabeth Elden </b></h4>
-           <p> Sophomore in the Academy of Computer Science with an interest in science topics. Participates in Robotics, Girls Who Code and Girl Scouts. </p>
-       </div>
-       <div class="container">
-           <h4><b> Maha K</b></h4>
-           <p> EI love  </p>
-       </div>
-   </div>
-</div>
--->
         <div class="palfundraiser">
             <div class="palfundraisertext">
                 <h2>Grow it Green Winter Market</h2>
@@ -365,7 +334,7 @@
                 }
                 events.forEach(event => {
                     const div = document.createElement("div");
-                    div.classList.add("card");
+                    div.classList.add("event-card");
 
                     div.innerHTML = `
                         <h3>${event.name}</h3>
