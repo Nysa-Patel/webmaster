@@ -1,4 +1,19 @@
-/* ── RESET & BASE ── */
+/* -- VARIABLES -- */
+:root {
+  --white: #ffffff;
+  --blue: #1a56db;
+  --blue-light: #3b82f6;
+  --blue-pale: #eff6ff;
+  --accent: #0ea5e9;
+  --text: #1e293b;
+  --muted: #64748b;
+  --border: #cbd5e1;
+  --success: #16a34a;
+  --danger: #dc2626;
+  --radius: 16px;
+}
+
+/* -- Reset -- */
 *,
 *::before,
 *::after {
@@ -7,130 +22,102 @@
   padding: 0;
 }
 
-/* ===== THEME VARIABLES ===== */
-:root {
-  /* Primary Blues */
-  --blue-dark: #1a3a6e;
-  /* deep royal, grounded anchor */
-  --blue-primary: #2f5fc4;
-  /* true royal blue, vibrant but refined */
-  --blue-accent: #a8d4f5;
-  /* icy sky, crisp highlight */
-
-  /* Light Backgrounds */
-  --blue-light: #dce8fb;
-  --blue-very-light: #f0f6ff;
-
-  /* Text */
-  --text-dark: #0d1b3e;
-  --text-medium: #2e4580;
-  --text-light: #ddeeff;
-
-  /* Base */
-  --white: #FFFFFF;
-
-  /* Shadows */
-  --shadow-soft: 0 6px 18px rgba(47, 95, 196, 0.15);
-  --shadow-medium: 0 12px 28px rgba(47, 95, 196, 0.25);
-
-  /* Borders */
-  --border-light: 1px solid var(--blue-light);
-
-  /* Radius */
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-}
-
+html,
 body {
-  background: #e2e4e7;
-  color: rgba(180, 200, 235, 0.8);
-  font-family: regfont, sans-serif;
-  min-height: 70vh;
+  min-height: 100vh;
+  font-family: 'Funnel Display', sans-serif;
+  color: var(--text);
+  background: #e8f4fd;
 }
 
-/* ── CONTACT SECTION ── */
+/* -- Background used by both pages -- */
+.background {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 70% 55% at 15% 0%, rgba(14, 165, 233, 0.14) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 85% 100%, rgba(26, 86, 219, 0.11) 0%, transparent 55%);
+}
+
+/* -- Navbar styling is shared with register page -- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(203, 213, 225, 0.7);
+  padding: 0 2rem;
+}
+
+/* -- Contact section container -- */
 .contact-section {
+  margin-top: 50px;
   min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 40px;
+  padding: 7vh auto 4rem;
 }
 
-/* ── RESPONSIVE PADDING ── */
-@media (min-width: 769px) {
-  .contact-section {
-    padding: 80px 60px;
-  }
-}
-
-@media (min-width: 1100px) {
-  .contact-section {
-    padding: 110px;
-  }
-}
-
-.contact-content {
-  width: 100%;
-  max-width: 95%;
-  animation: rise 0.5s ease both;
-}
-
-@keyframes rise {
-  from {
-    opacity: 0;
-    transform: translateY(14px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* ── CARD ── */
-/* Dark glass card — consistent with input/text styles */
+/* -- Light card that mirrors the registration layout -- */
 .contact-card {
-  background: var(--blue-dark);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  border-radius: 12px;
-  padding: 36px 40px;
+  max-width: 800px;
+  /* made wider */
+  width: 90%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(203, 213, 225, 0.65);
+  border-radius: var(--radius);
+  box-shadow: 0 20px 60px rgba(30, 80, 180, 0.10);
+  overflow: hidden;
+  padding: 2.4rem;
 }
 
 .contact-card h2 {
-  font-size: 1.4rem;
-  font-weight: 400;
-  color: rgba(210, 228, 255, 0.9);
-  letter-spacing: -0.01em;
-  margin-bottom: 32px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-family: 'Funnel Display', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  color: var(--text);
 }
 
-/* ── FORM ── */
+.contact-text p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* -- Form and inner grid -- */
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 0.55rem;
-  flex: 1;
+  gap: 0.38rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact-form-grid .column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  color: rgba(200, 200, 200, 0.7);
-  border-color: rgba(91, 141, 238, 0.7);
-  background-color: rgba(91, 141, 238, 0.1);
-  border: 1px solid rgba(91, 141, 238, 0.7);
-  border-radius: 6px;
-  font-family: regfont, sans-serif;
-  font-size: 0.85rem;
-  padding: 8px 12px;
+  padding: 0.72rem 0.95rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  color: var(--text);
+  font-family: 'Funnel Display', sans-serif;
+  font-size: 0.92rem;
   outline: none;
-  transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .contact-form textarea {
@@ -140,49 +127,62 @@ body {
   padding-top: 12px;
 }
 
-/* ── SUBMIT BUTTON ── */
+/* position submit on right column */
+.contact-form .btn-submit-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #b0bec5;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--blue-light);
+  background: var(--white);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.14);
+}
+
+/* -- Submit button -- */
 .contact-form button[type="submit"] {
   align-self: flex-end;
-  margin-top: 28px;
-  background-color: rgba(91, 141, 238, 0.1);
-  color: rgba(210, 228, 255, 0.9);
-  border: 1px solid rgba(91, 141, 238, 0.7);
-  font-family: regfont, sans-serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 10px 26px;
-  border-radius: 5px;
+  margin-top: 1rem;
+  background: var(--blue);
+  color: var(--white);
+  border: none;
+  font-family: 'Funnel Display', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  border-radius: 9px;
   cursor: pointer;
-  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  transition: background 0.2s;
 }
 
 .contact-form button[type="submit"]:hover {
-  background-color: rgba(91, 141, 238, 0.28);
-  border-color: rgba(91, 141, 238, 0.9);
-  color: #ffffff;
+  background: var(--blue-light);
 }
 
-/* ── GRID LAYOUT ── */
+/* -- Grid layout -- */
+/* stacked version already defined above; keep column orientation */
 .contact-grid {
   display: flex;
-  gap: 48px;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  align-items: stretch;
 }
 
-/* Stack grid vertically on medium screens */
+/* media query can still adjust spacing if needed */
 @media (max-width: 768px) {
   .contact-grid {
-    flex-direction: column;
     gap: 32px;
   }
 }
 
-.contact-text {
-  flex: 1;
-}
-
-/* ── SMALL SCREEN ── */
+/* -- Responsive tweaks -- */
 @media (max-width: 520px) {
   .contact-card {
     padding: 32px 24px;

@@ -50,7 +50,8 @@ body {
 
 /* ── .auth-card ── */
 .auth-card {
-  max-width: 520px;
+  max-width: 500px;
+  width: 90%;
   margin: 7vh auto 4rem;
   background: rgba(255, 255, 255, 0.88);
   border: 1px solid rgba(203, 213, 225, 0.65);
