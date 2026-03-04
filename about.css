@@ -283,3 +283,29 @@ html {
     transform: scaleY(1);
   }
   
+  /* Card styling */
+.card {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(203, 213, 225, 0.7);
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(30, 80, 180, 0.08);
+  backdrop-filter: blur(12px);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  color: var(--blue);
+}
+
+.card p {
+  line-height: 1.7;
+  color: #444;
+  font-size: 15px;
+}
