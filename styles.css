@@ -715,17 +715,57 @@ button:hover {
 }
 
 /* ===== FOOTER ===== */
-footer {
-  background-color: #dddddd;
-  width: 100%;
+.footer {
+  background-color: rgba(4, 10, 28, 0.75);
+  color:white;
+  padding: 10px 10px 10px;
+  margin-top: 60px;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: flex-start;
+}
+.footer-left {
+  display: flex;
+  gap: 60px;
+}
+.connect {
+  margin-left: auto;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  padding: 4rem 2rem;
-  max-width: 1500px;
-  margin: 0 auto;
+
+.f-section h3, 
+.f-section h4 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.f-section p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.f-section ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+.f-section ul li {
+  margin-bottom: 8px;
+  color: white;
+}
+.bottom-footer {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 20px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--blue-light);
 }
 
 
