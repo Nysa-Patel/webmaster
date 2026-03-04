@@ -818,7 +818,7 @@ button:hover {
   padding: 10px 10px 10px;
   margin-top: 60px;
 }
-.footer-container {
+.f-container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
