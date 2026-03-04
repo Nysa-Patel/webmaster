@@ -197,3 +197,119 @@ body {
 #references {
   padding-top: 60px;
 }
+
+/* ===== REFERENCES PAGE ===== */
+
+.references {
+  background: linear-gradient(to bottom, #eef4ff, #ffffff);
+  padding: 130px 20px 80px;
+  text-align: center;
+}
+
+.references h1 {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--blue);
+
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--border);
+  border-radius: 999px;   /* fully rounded */
+
+  box-shadow: 0 10px 30px rgba(30, 80, 180, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+/* Card styling */
+.card {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(203, 213, 225, 0.7);
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(30, 80, 180, 0.08);
+  backdrop-filter: blur(12px);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  color: var(--blue);
+}
+
+.card p {
+  line-height: 1.7;
+  color: #444;
+  font-size: 15px;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  margin-bottom: 12px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Link styling */
+.card a {
+  color: #2563EB;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 70px rgba(30, 80, 180, 0.12);
+}
+
+
+/* ── REFERENCES SECTION ── */
+
+.references {
+  padding: 120px 1.5rem 4rem;
+  text-align: center;
+}
+
+/* Page Title */
+.references h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: var(--blue);
+}
+
+/* ── Link Boxes ── */
+
+.link-box {
+  background: var(--blue-pale);
+  border: 1px solid var(--border);
+  padding: 0.9rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 0.8rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.link-box a {
+  text-decoration: none;
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.link-box:hover {
+  background: #dbeafe;
+  transform: translateX(6px);
+}
