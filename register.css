@@ -352,14 +352,5 @@ input:focus {
   .pw-rules {
     grid-template-columns: 1fr;
   }
-
-  .navbar-links {
-    justify-content: center;
-  }
-
-  .navbar-links li a {
-    font-size: 0.78rem;
-    padding: 0.75rem 0.55rem;
-  }
 }
 

@@ -12,12 +12,18 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="js" href="script.js" 
+        <link rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
         <nav class="navbar">
+            <button class="navbar-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="navbar-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -32,16 +38,19 @@
 <body>
 
     <!-- HERO -->
-    <section class="hero volunteer-hero">
+    <section class="hero">
         <div class="hero-content">
-            <h1>Find Volunteer Opportunities in Morris County</h1>
-            <p>Connect with local nonprofits and make a difference in your community.</p>
-            <button class="primary-btn">Start Volunteering</button>
+            <h1>Volunteer</h1>
+            <p>
+                Find volunteer opportunities in Morris County.
+                Connect with local nonprofits and make a difference in your community.
+            </p>
+            <a href="#search" class="btn">Start Volunteering</a>
         </div>
     </section>
     
     <!-- SEARCH -->
-    <section class="search-section">
+    <section id="search" class="search-section">
         <div class="container">
             <h2>Search Opportunities</h2>
     
@@ -75,35 +84,50 @@
         <div class="container">
             <h2>Featured Opportunities</h2>
     
-            <div class="card-container">
-    
-                <div class="vol-card">
-                    <h3>Denville Public Library</h3>
-                    <p>Help in the Denville Public Library, available to all residents.</p>
-        
-                    <a href="https://www.denvillelibrary.org/about-us/community-info/volunteer-opportunities/">
-                        <button class="primary-btn">Learn More</button>
-                    </a>
+            <div class="carousel">
+                <button class="carousel-btn carousel-prev" aria-label="Previous slide">&#8249;</button>
+
+                <div class="carousel-viewport">
+                    <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <div class="vol-card">
+                            <h3>Denville Public Library</h3>
+                            <p>Help in the Denville Public Library, available to all residents.</p>
+                            <a href="https://www.denvillelibrary.org/about-us/community-info/volunteer-opportunities/">
+                                <button class="primary-btn">Learn More</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="vol-card">
+                            <h3>Interfaith Food Pantry</h3>
+                            <p>Their mission is to provide opportunities for neighbors to help neighbors.</p>
+                            <a href="https://www.mcifp.org/get-involved/volunteer/">
+                                <button class="primary-btn">Learn More</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="vol-card">
+                            <h3>Morristown Medical Center</h3>
+                            <p>Volunteers are a vital part of Morristown Medical Center, helping us enhance the patient experience and provide high-quality care.</p>
+                            <a href="https://ahs.atlantichealth.org/patients-visitors/donate-volunteer/volunteer/volunteering-morristown-medical-center.html">
+                                <button class="primary-btn">Learn More</button>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-    
-                <div class="vol-card">
-                    <h3>Interfaith Food Pantry</h3>
-                    <p>Their mission is to provide opportunities for neighbors to help neighbors.</p>
-        
-                    <a href="https://www.mcifp.org/get-involved/volunteer/">
-                        <button class="primary-btn">Learn More</button>
-                    </a>
+
+                <button class="carousel-btn carousel-next" aria-label="Next slide">&#8250;</button>
+
+                <div class="carousel-dots">
+                    <button class="carousel-dot active" aria-label="Slide 1"></button>
+                    <button class="carousel-dot" aria-label="Slide 2"></button>
+                    <button class="carousel-dot" aria-label="Slide 3"></button>
                 </div>
-    
-                <div class="vol-card">
-                    <h3>Morristown Medical Center</h3>
-                    <p>Volunteers are a vital part of Morristown Medical Center, helping us enhance the patient experience and provide high-quality care.</p>
-        
-                    <a href="https://ahs.atlantichealth.org/patients-visitors/donate-volunteer/volunteer/volunteering-morristown-medical-center.html">
-                        <button class="primary-btn">Learn More</button>
-                    </a>
-                </div>
-    
             </div>
         </div>
     </section>
