@@ -303,7 +303,7 @@ body {
   text-align: center;
   padding: 0 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('forestlake.avif') center/cover no-repeat;
+    url('courthouse.png') center/cover no-repeat;
   color: white;
   position: relative;
   z-index: 0;
@@ -323,6 +323,7 @@ body {
   font-weight: 800;
   background: linear-gradient(90deg, #ffffff, #c8dcff);
   -webkit-background-clip: text;
+  -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
