@@ -12,12 +12,18 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="js" href="script.js" 
+        <link rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
         <nav class="navbar">
+            <button class="navbar-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="navbar-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -39,7 +45,7 @@
                     </p>
                     <a href="#search" class="btn">Start Exploring</a>
                     <div class="arrowandtext">
-                        <p class="arrowtext">More Information</p>
+                        <p class="arrowtext">Learn More</p>
                         <a href = "#mission" class= "scroll-arrow">&#8595;</a>
                     </div>
                 </div>
@@ -272,11 +278,38 @@
             </div>
         </div>
 
-        <footer>
-            <div class="footer">
-                <h1>Morris County Resource Hub</h1>
-                <p>By Nysa Vadaliya, Nysa Patel, Elizabeth Elden, Mahalakshmi Kancharlapalli, and Ryan
-                    Khieu</p>
+        <footer class="footer">
+            <div class="f-container">
+
+                <div class ="footer-left">
+                    <div class="f-section">
+                        <p>
+                            MCConnect believes too...
+                        </p>
+                    </div>
+
+                    <div class="f-section">
+                        <h4>Quick links</h4>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="volunteer.html">Volunteer</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class ="f-section connect">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Submit an Event</a></li>
+                        <li>mcconnect#gmail.com</li>
+                        <li>+1 123 456-7890</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class ="bottom-footer">
+                <p>© 2026 MCConnect. All rights reserved.</p>
             </div>
         </footer>
 
