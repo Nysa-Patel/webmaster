@@ -282,7 +282,16 @@ body {
 .dropdown-content a:hover::before {
   transform: scaleY(1);
 }
-
+/* logo on left of navbar */
+.logo {
+  position: absolute;
+  left: 40px;
+  color: white;
+  text-decoration: none;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
 /* ===== HERO ===== */
 .hero {
   width: 100%;
@@ -391,6 +400,35 @@ body {
   z-index: 0;
   overflow: hidden;
 }
+/* slogan section */
+.slogan-section {
+  background: linear-gradient(to bottom, #ffffff, var(--blue-very-light));
+  padding: 30px 20px;  
+  text-align: center;
+}
+
+.slogan-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.slogan-section h2 {
+  font-family: "Funnel Display", sans-serif;
+  font-size: 2rem;
+  font-weight: 500 !important;  /* no bold */
+  color: var(--blue-dark);
+}
+
+/* subtle underline accent */
+.slogan-section h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: var(--blue-primary);
+  margin: 20px auto 0;
+  border-radius: 4px;
+}
 
 .mission-section {
   position: relative;
@@ -439,6 +477,7 @@ section {
 .scroll-arrow:hover {
   transform: translateY(10px);
 }
+
 
 /* ===== MISSION SECTION ===== */
 .mission-section {

@@ -47,7 +47,16 @@ body {
   border-bottom: 1px solid rgba(203, 213, 225, 0.7);
   padding: 0 2rem;
 }
-
+.logo {
+  position: absolute;
+  left: 40px;
+  color: white;
+  text-decoration: none;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  z-index: 1001;
+}
 /* -- Contact section container -- */
 .contact-section {
   margin-top: 50px;
