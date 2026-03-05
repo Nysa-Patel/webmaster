@@ -501,12 +501,14 @@ section {
   color: var(--blue-dark);
   margin-bottom: 20px;
   font-weight: bold;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .mission-text p {
   font-size: 1rem;
   line-height: 1.7;
   color: #444;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .mission-image {
@@ -526,6 +528,7 @@ section {
   display: flex;
   gap: 40px;
   margin-top: 40px;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .stat {
@@ -565,6 +568,7 @@ section {
   margin-bottom: 20px;
   text-align: center;
   color: #333;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .searchbox {
@@ -587,6 +591,7 @@ section {
   border-radius: 8px;
   font-size: 14px;
   transition: 0.25s ease;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .searchbox input:focus,
@@ -630,6 +635,7 @@ button {
   background: var(--blue-primary);
   color: var(--white);
   border-radius: var(--radius-sm)
+  font-family: "Funnel Display", sans-serif;
 }
 
 
@@ -675,12 +681,14 @@ button:hover {
   color: var(--blue-dark);
   font-size: 1.3rem;
   font-weight: 700;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .card-grid .card p {
   font-size: 0.95rem;
   color: #555;
   line-height: 1.6;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .icon-placeholder {
@@ -782,6 +790,7 @@ button:hover {
 
 .palfundraisertext {
   flex: 0.8;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .palfundraisertext h2 {
@@ -789,12 +798,14 @@ button:hover {
   margin-bottom: 1rem;
   color: var(--blue-dark);
   font-weight: 800;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .palfundraisertext p {
   font-size: 1.05rem;
   line-height: 1.7;
   color: var(--text-medium);
+  font-family: "Funnel Display", sans-serif;
 }
 
 .palfundraiserImg {
@@ -843,10 +854,12 @@ button:hover {
 
   .palfundraisertext h2 {
     font-size: 2rem;
+    font-family: "Funnel Display", sans-serif;
   }
 
   .palfundraisertext p {
     font-size: 1rem;
+    font-family: "Funnel Display", sans-serif;
   }
 }
 

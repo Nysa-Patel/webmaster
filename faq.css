@@ -18,6 +18,7 @@ h1 {
     font-size: 3rem;
     color: #1c5899;
     margin-bottom: 40px;
+    font-family: "Funnel Display", sans-serif;
 }
 
 .faq-item {
@@ -28,6 +29,7 @@ h1 {
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
+    
 }
 
 .faq-question {
@@ -37,6 +39,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Funnel Display", sans-serif;
 }
 
 .faq-question:hover {
@@ -49,12 +52,14 @@ h1 {
     font-weight: 400;
     line-height: 1.6;
     color: #555;
+    font-family: "Funnel Display", sans-serif;
 }
 
 .faq-question::after {
     content: '+';
     font-size: 1.5rem;
     transition: transform 0.3s ease;
+    font-family: "Funnel Display", sans-serif;
 }
 
 .faq-item.active .faq-question::after {
