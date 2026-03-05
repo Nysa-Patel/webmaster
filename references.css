@@ -60,11 +60,7 @@ body {
   src: url("Nexa-ExtraLight.ttf");
 }
 
-<<<<<<< Updated upstream
 /* ─── NAVBAR ─────────────────────────────────────────────── */
-=======
-/* ===== NAVBAR ===== */
->>>>>>> Stashed changes
 .navbar {
   background: rgba(4, 10, 28, 0.75);
   padding: 0 40px;
@@ -83,34 +79,58 @@ body {
   box-shadow: 0 1px 0 rgba(80, 140, 255, 0.06), 0 8px 32px rgba(0, 0, 0, 0.35);
 }
 
-<<<<<<< Updated upstream
+
 /* ─── LINKS ──────────────────────────────────────────────── */
-=======
->>>>>>> Stashed changes
 .navbar-links {
   list-style: none;
   display: flex;
-  gap: 30px;
-  font-family: regfont;
+  gap: 2px;
   align-items: center;
   white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  position: relative;
 }
 
 .navbar-links a {
-  color: white;
+  color: rgba(194, 212, 255, 0.7);
   text-decoration: none;
-  font-size: 0.8rem;
-  padding: 6px 4px;
-  display: inline-block;
-  font-family: regfont;
+  font-size: 0.78rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 7px 16px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
   line-height: 1;
+  position: relative;
+  transition: color 0.25s ease, background 0.25s ease;
+  overflow: hidden;
+}
+
+/* Animated underline on hover */
+.navbar-links a::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 16px;
+  right: 16px;
+  height: 1px;
+  background: linear-gradient(90deg, #4f8fff, #82b4ff);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 1px;
 }
 
 .navbar-links a:hover {
-  color: #aac1e6;
+  color: #c8dcff;
+  background: rgba(79, 143, 255, 0.08);
 }
 
-<<<<<<< Updated upstream
 .navbar-links a:hover::after {
   transform: scaleX(1);
 }
@@ -189,12 +209,6 @@ body {
     visibility: hidden;
     transform: translateY(-20px);
     transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s;
-=======
-/* Navbar responsive */
-@media (max-width: 450px) {
-  .navbar-links {
-    gap: 16px;
->>>>>>> Stashed changes
   }
 
   .navbar-links.open {
@@ -225,13 +239,13 @@ body {
   .navbar-links.open li:nth-child(7) { transition-delay: 0.35s; }
 
   .navbar-links a {
-<<<<<<< Updated upstream
     padding: 16px 24px;
     font-size: 0.95rem;
     width: 100%;
     border-radius: 0;
     background: rgba(79, 143, 255, 0.06);
     border-bottom: 1px solid rgba(80, 140, 255, 0.08);
+    
   }
 
   .navbar-links a::after {
@@ -273,21 +287,18 @@ body {
 
 #references {
   padding-top: 60px;
-=======
-    font-size: 0.7rem;
-    padding: 6px 2px;
-  }
 }
-
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
->>>>>>> Stashed changes
+.logo {
+  position: absolute;
+  left: 40px;
+  color: white;
+  text-decoration: none;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  z-index: 1001;
 }
-
-/* ===== REFERENCES PAGE ===== */
+/* ===== references  ===== */
 
 .references {
   background: linear-gradient(to bottom, #eef4ff, #ffffff);
@@ -308,6 +319,7 @@ body {
 
   box-shadow: 0 10px 30px rgba(30, 80, 180, 0.08);
   backdrop-filter: blur(10px);
+  font-family: "Funnel Display", sans-serif;
 }
 
 /* Card styling */
@@ -329,12 +341,14 @@ body {
   font-size: 1.3rem;
   margin-bottom: 1.2rem;
   color: var(--blue);
+  font-family: "Funnel Display", sans-serif;
 }
 
 .card p {
   line-height: 1.7;
   color: #444;
   font-size: 15px;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .card ul {
@@ -352,6 +366,7 @@ body {
   color: #2563EB;
   text-decoration: none;
   font-weight: 500;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .card a:hover {
@@ -378,6 +393,7 @@ body {
   font-weight: 700;
   margin-bottom: 3rem;
   color: var(--blue);
+  font-family: "Funnel Display", sans-serif;
 }
 
 /* ── Link Boxes ── */
@@ -396,6 +412,7 @@ body {
   color: var(--blue);
   font-weight: 600;
   font-size: 0.95rem;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .link-box:hover {

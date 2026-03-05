@@ -282,7 +282,16 @@ body {
 .dropdown-content a:hover::before {
   transform: scaleY(1);
 }
-
+/* logo on left of navbar */
+.logo {
+  position: absolute;
+  left: 40px;
+  color: white;
+  text-decoration: none;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
 /* ===== HERO ===== */
 .hero {
   width: 100%;
@@ -391,6 +400,35 @@ body {
   z-index: 0;
   overflow: hidden;
 }
+/* slogan section */
+.slogan-section {
+  background: linear-gradient(to bottom, #ffffff, var(--blue-very-light));
+  padding: 30px 20px;  
+  text-align: center;
+}
+
+.slogan-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.slogan-section h2 {
+  font-family: "Funnel Display", sans-serif;
+  font-size: 2rem;
+  font-weight: 500 !important;  /* no bold */
+  color: var(--blue-dark);
+}
+
+/* subtle underline accent */
+.slogan-section h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: var(--blue-primary);
+  margin: 20px auto 0;
+  border-radius: 4px;
+}
 
 .mission-section {
   position: relative;
@@ -440,6 +478,7 @@ section {
   transform: translateY(10px);
 }
 
+
 /* ===== MISSION SECTION ===== */
 .mission-section {
   padding: 100px 10%;
@@ -462,12 +501,14 @@ section {
   color: var(--blue-dark);
   margin-bottom: 20px;
   font-weight: bold;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .mission-text p {
   font-size: 1rem;
   line-height: 1.7;
   color: #444;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .mission-image {
@@ -487,6 +528,7 @@ section {
   display: flex;
   gap: 40px;
   margin-top: 40px;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .stat {
@@ -526,6 +568,7 @@ section {
   margin-bottom: 20px;
   text-align: center;
   color: #333;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .searchbox {
@@ -548,6 +591,7 @@ section {
   border-radius: 8px;
   font-size: 14px;
   transition: 0.25s ease;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .searchbox input:focus,
@@ -591,6 +635,7 @@ button {
   background: var(--blue-primary);
   color: var(--white);
   border-radius: var(--radius-sm)
+  font-family: "Funnel Display", sans-serif;
 }
 
 
@@ -636,12 +681,14 @@ button:hover {
   color: var(--blue-dark);
   font-size: 1.3rem;
   font-weight: 700;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .card-grid .card p {
   font-size: 0.95rem;
   color: #555;
   line-height: 1.6;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .icon-placeholder {
@@ -743,6 +790,7 @@ button:hover {
 
 .palfundraisertext {
   flex: 0.8;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .palfundraisertext h2 {
@@ -750,12 +798,14 @@ button:hover {
   margin-bottom: 1rem;
   color: var(--blue-dark);
   font-weight: 800;
+  font-family: "Funnel Display", sans-serif;
 }
 
 .palfundraisertext p {
   font-size: 1.05rem;
   line-height: 1.7;
   color: var(--text-medium);
+  font-family: "Funnel Display", sans-serif;
 }
 
 .palfundraiserImg {
@@ -804,10 +854,12 @@ button:hover {
 
   .palfundraisertext h2 {
     font-size: 2rem;
+    font-family: "Funnel Display", sans-serif;
   }
 
   .palfundraisertext p {
     font-size: 1rem;
+    font-family: "Funnel Display", sans-serif;
   }
 }
 
