@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+ <body>
+    <div class="background">
+        <h1>Results</h1>
+        <div id = "results"></div>
+    </div>
+
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const town = urlParams.get("town")?.toLowerCase() || "";
+            const keyword = urlParams.get("keyword")?.toLowerCase() || "";
+            const fromDateInput = urlParams.get("from") || "";
+            const toDateInput = urlParams.get("to") || "";
+
+            fetch("data.json")
+            .then(res => res.json())
+            .then(eventsData => {
+                const filtered = eventsData.filter(event => {
+                    const start = new Date(event.start_date || event.date);
+                    const end = new Date(event.end_date || event.date);
+                    const from = fromDateInput ? new Date(fromDateInput) : null;
+                    const to = toDateInput ? new Date(toDateInput) : null;
+
+                    let matchDate = true;
+                    if (from) matchDate = end >= from;
+                    if (to) matchDate = matchDate && start <= to;
+
+                    const matchTown = town === "" || 
+                        (event.location && event.location.toLowerCase().includes(town));
+
+                    const matchKeyword = keyword === "" ||
+                        (event.name && event.name.toLowerCase().includes(keyword)) ||
+                        (event.category && event.category.toLowerCase().includes(keyword));
+
+                    return matchDate && matchTown && matchKeyword;
+                });
+                console.log("Filtered events: ", filtered)
+                displayResults(filtered);
+            });
+
+        // Same displayResults function as before
+            function displayResults(events) {
+                const resdiv = document.getElementById("results");
+                resdiv.innerHTML = "";
+                if (events.length === 0) {
+                    resdiv.innerHTML = "<p>No events found</p>";
+                    return;
+                }
+                events.forEach(event => {
+                    const div = document.createElement("div");
+                    div.classList.add("event-card");
+                    div.innerHTML = `
+                        <h3>${event.name}</h3>
+                        <p><strong>Date:</strong> ${event.date || event.start_date}${event.end_date ? " - " + event.end_date : ""}</p>
+                        <p><strong>Time:</strong> ${event.time || "TBA"}</p>
+                        <p><strong>Location:</strong> ${event.location}</p>
+                        <p><strong>Category:</strong> ${event.category}</p>
+                        <a href="${event.url}" target="_blank">View Event</a>
+                    `;
+                    resdiv.appendChild(div);
+                });
+            }
+            
+    </script>
+    </body>
+    </html>
+
+
+    
