@@ -341,58 +341,13 @@
             document.getElementById("submit").addEventListener("click", () => {
                 const town= document.getElementById("inputTown").value.toLowerCase();
                 const keyword = document.getElementById("inputKeyword").value.toLowerCase();
-                const fromDateInput = document.getElementById("from").value;
-                const toDateInput = document.getElementById("to").value;
+                const from = document.getElementById("from").value;
+                const to = document.getElementById("to").value;
 
-                const filtered = eventsData.filter(event => {
-                    //dates
-                    const start = new Date(event.start_date || event.date);
-                    const end = new Date (event.end_date || event.date);
-                    const from = fromDateInput ? new Date(fromDateInput) : null;
-                    const to = toDateInput ? new Date(toDateInput) : null;
-                    
-                    let matchDate = true;
-                    if(from) matchDate = end >= from;
-                    if(to) matchDate = matchDate && start <= to;   
-
-                    //town
-                    const matchTown = town === "" ||
-                        (event.location && event.location.toLowerCase().includes(town));
-                    
-                    //keword
-                    const matchKeyword = keyword === "" ||
-                        (event.name && event.name.toLowerCase().includes(keyword)) ||
-                        (event.category && event.category.toLowerCase().includes(keyword));
-
-                    return matchDate && matchTown && matchKeyword;
-                })
-                //debug
-                console.log("Filtered events:", filtered);
-                displayResults(filtered);
+                const params= new URLSearchParams({town, keyword, from, to});
+                window.location.href = "results.html?" + params.toString();
             });
 
-            function displayResults(events) {
-                const resdiv = document.getElementById("results");
-                resdiv.innerHTML = "";
-                if (events.length ===0) {
-                    resdiv.innerHTML = "<p>No events</p>";
-                    return;
-                }
-                events.forEach(event => {
-                    const div = document.createElement("div");
-                    div.classList.add("event-card");
-
-                    div.innerHTML = `
-                        <h3>${event.name}</h3>
-                        <p><strong>Date:</strong> ${event.date || event.start_date}${event.end_date ? " - " + event.end_date : ""}</p>
-                        <p><strong>Time:</strong> ${event.time || "TBA"}</p>
-                        <p><strong>Location:</strong> ${event.location}</p>
-                        <p><strong>Category:</strong> ${event.category}</p>
-                        <a href="${event.url}" target="_blank">View Event</a>
-                    `;
-                    resdiv.appendChild(div);
-                });
-            };
         </script>
     </body>
 
