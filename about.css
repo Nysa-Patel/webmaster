@@ -293,7 +293,62 @@ html {
     font-size: 1.2rem;
     z-index: 1001;
   }
+
+
+  .about-hero {
+    width: 100%;
+    min-height: 90vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('aboutHero.png') center/cover no-repeat;
+    color: white;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
   
+
+.aboutForhero {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+
+.aboutForhero a {
+  color: #e1e6f0;
+  text-decoration: none;
+}
+
+.aboutForhero span {
+  margin: 0 6px;
+  
+}
+
+
+.about-hero h1 {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 800;
+
+  background: linear-gradient(90deg, #ffffff, #c8dcff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.hero {
+  margin-top: 54px;
+}
+
+
+
 /* Card styling */
 .card {
   flex: 1 1 calc(33.333% - 1.33rem);
