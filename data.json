@@ -1,436 +1,2856 @@
 [
-    {
-        "name": "Patriotic Pairings: Charcuterie & Lemonade",
-        "date": "2026-02-14",
-        "time": "10:00 am - 12:00 pm",
-        "location": "Randolph Township Community Center, Randolph, NJ",
-        "category": "Family Friendly / Food & Workshop",
-        "url": "https://morristourism.org/events/patriotic-pairings-charcuterie-lemonade/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Valentine’s Couples Hike",
-        "date": "2026-02-14",
-        "time": "10:00 am - 12:00 pm",
-        "location": "Pyramid Mountain Natural Historic Area, Montville, NJ",
-        "category": "Outdoor & Recreation / Family Friendly",
-        "url": "https://morristourism.org/events/valentines-couples-hike/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Sleeping Beauty: Classics for Kids!",
-        "date": "2026-02-14",
-        "time": "11:00 am - 12:00 pm",
-        "location": "The Shakespeare Theatre of New Jersey, Madison, NJ",
-        "category": "Family Friendly / Theatre",
-        "url": "https://shakespearenj.org/performances/sleeping-beauty-classics-for-kids/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Maple Sugaring Demos (Weekend Sessions)",
-        "start_date": "2026-02-15",
-        "end_date": "2026-02-22",
-        "time": "1:00 pm & 2:30 pm",
-        "location": "Great Swamp Outdoor Education Center, Chatham Twp, NJ",
-        "category": "Family Friendly / Outdoor & Recreation",
-        "url": "https://www.morrisparks.net/events/maple-sugaring-demos/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Booked 20: Formations Presented by METC",
-        "date": "2026-02-17",
-        "time": "10:00 am - 4:00 pm",
-        "location": "Museum of Early Trades & Crafts, Madison, NJ",
-        "category": "Arts & Culture / Exhibition",
-        "url": "https://metc.org/formations/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Digital Divine: Featuring the Works of Jo-El Lopez",
-        "date": "2026-02-17",
-        "time": "11:00 am - 5:00 pm",
-        "location": "Morris Museum, Morristown, NJ",
-        "category": "Arts & Culture / Exhibition",
-        "url": "https://www.morrismuseum.org/exhibitions/digital-divine-jo-el-lopez/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Contemporary Volumes",
-        "date": "2026-02-17",
-        "time": "11:00 am - 5:00 pm",
-        "location": "Morris Museum, Morristown, NJ",
-        "category": "Arts & Culture / Exhibition",
-        "url": "https://www.morrismuseum.org/exhibitions/contemporary-volumes/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Perennial Land (ongoing exhibition)",
-        "start_date": "2025-11-07",
-        "end_date": "2026-04-05",
-        "time": "11:00 am - 5:00 pm",
-        "location": "Morris Museum, Morristown, NJ",
-        "category": "Arts & Culture / Exhibition",
-        "url": "https://www.morrismuseum.org/exhibitions/perennial-land/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Iconic: Kathleen Gilje Repaints Art History (ongoing exhibition)",
-        "start_date": "2025-11-21",
-        "end_date": "2026-04-30",
-        "time": "11:00 am - 5:00 pm",
-        "location": "Morris Museum, Morristown, NJ",
-        "category": "Arts & Culture / Exhibition",
-        "url": "https://www.morrismuseum.org/exhibitions/iconic-kathleen-gilje/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Notes on Napkins",
-        "date": "2026-02-17",
-        "time": "11:00 am - 5:00 pm",
-        "location": "Morris Museum, Morristown, NJ",
-        "category": "Arts & Culture / Exhibition",
-        "url": "https://www.morrismuseum.org/exhibitions/notes-on-napkins/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Artist Workshop with Cat Doty",
-        "date": "2026-02-21",
-        "time": "1:00 pm - 3:00 pm",
-        "location": "METC Education Annex, Madison, NJ",
-        "category": "Arts & Culture / Workshop",
-        "url": "https://metc.org/workshops/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Revolutionary Voices: The Devil’s Disciple",
-        "date": "2026-02-23",
-        "time": "7:30 pm - 9:30 pm",
-        "location": "F.M. Kirby Shakespeare Theatre, Madison, NJ",
-        "category": "Arts & Culture / Theatre",
-        "url": "https://shakespearenj.org/performances/revolutionary-voices-the-devils-disciple/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Hiking Through History: Winter!",
-        "date": "2026-02-28",
-        "time": "10:00 am - 11:00 am",
-        "location": "Pyramid Mountain Natural Historic Area, Montville, NJ",
-        "category": "Outdoor & Recreation / Family Friendly",
-        "url": "https://www.morrisparks.net/activities/hiking-through-history/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "A Taste of Morristown",
-        "date": "2026-03-02",
-        "time": "6:00 pm - 9:00 pm",
-        "location": "The Westin Governor Morris, Morristown, NJ",
-        "category": "Dining & Fundraiser",
-        "url": "https://www.eventcreate.com/e/taste2026",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Family Nature Stroll",
-        "date": "2026-03-08",
-        "time": "10:00 am - 11:00 am",
-        "location": "Great Swamp Outdoor Education Center, NJ",
-        "category": "Family Friendly / Nature",
-        "url": "https://www.morrisparks.net/events/family-nature-stroll/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Spring CraftMorristown",
-        "start_date": "2026-03-13",
-        "end_date": "2026-03-15",
-        "time": "Fri 4:00 pm - 7:00 pm / Sat 10:00 am - 5:00 pm / Sun 10:00 am - 4:00 pm",
-        "location": "Morristown National Guard Armory, Morristown, NJ",
-        "category": "Arts & Culture / Shopping / Community",
-        "url": "https://morristourism.org/events/spring-craftmorristown/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Patriotic Pairings: Charcuterie & Lemonade (repeat class)",
-        "date": "2026-03-14",
-        "location": "Randolph Township Community Center, Randolph, NJ",
-        "category": "Family Friendly / Food & Workshop",
-        "url": "https://morristourism.org/events/patriotic-pairings-charcuterie-lemonade/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Hiking Through History: Spring Session",
-        "date": "2026-03-14",
-        "time": "10:00 am - 11:00 am",
-        "location": "Pyramid Mountain Natural Historic Area, Montville, NJ",
-        "category": "Family Friendly / Outdoor & Recreation",
-        "url": "https://www.morrisparks.net/activities/hiking-through-history/",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "From The North – Cultural Material and Living Heritage of Inuit Art",
-        "start_date": "2026-02-13",
-        "end_date": "2026-06-30",
-        "location": "Morris Museum, Morristown, NJ",
-        "category": "Arts & Culture / Exhibition",
-        "url": "https://morrismuseum.org/on-view/current",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Fresh Perspectives 2026",
-        "start_date": "2026-03-06",
-        "end_date": "2026-05-10",
-        "location": "Morris Museum, Morristown, NJ",
-        "category": "Arts & Culture / Exhibition",
-        "url": "https://morrismuseum.org/on-view/upcoming/fresh-perspectives-2026",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Common Ground: NJ Artists Think Monumental",
-        "start_date": "2026-05-28",
-        "end_date": "2026-08-23",
-        "location": "Morris Museum Grounds, Morristown, NJ",
-        "category": "Arts & Culture / Outdoor Exhibition",
-        "url": "https://morrismuseum.org/on-view/upcoming/common-ground-nj-artists-think-monumental",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Parsippany PAL Wrestling 2026 Tricky Tray & Pasta Night",
-        "date": "2026-02-28",
-        "time": null,
-        "location": "Parsippany Police Athletic League, Parsippany‑Troy Hills, NJ",
-        "category": "Community / Family Friendly / Fundraiser",
-        "url": "https://www.eventbrite.com/e/parsippany-pal‑wrestling‑2026‑tricky‑tray‑pasta‑night‑<id>",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Dark Force Fest 2026",
-        "start_date": "2026-05-01",
-        "end_date": "2026-05-03",
-        "time": "Various (see organizer)",
-        "location": "Sheraton Parsippany Hotel, Parsippany‑Troy Hills, NJ",
-        "category": "Festival / Music / Community",
-        "url": "https://www.eventbrite.com/e/dark‑force‑fest‑2026‑tickets‑<id>",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Northern New Jersey Job Fair",
-        "date": "2026-03-24",
-        "time": "6:00 pm - 8:00 pm",
-        "location": "Embassy Suites by Hilton Parsippany, 909 Parsippany Blvd, Parsippany‑Troy Hills, NJ 07054",
-        "category": "Community / Career / Free",
-        "url": "https://www.eventbrite.com/e/northern‑new‑jersey‑job‑fair‑march‑24th‑sales‑management‑focused‑tickets‑1983058125235",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Montville Senior Midday Friendship Luncheon",
-        "date": "2026-02-17",
-        "time": "10:30 am - 1:00 pm",
-        "location": "356 Main Road, Montville Township, NJ",
-        "category": "Community / Social / Senior Friendly",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Line Dancing - Seniors 55 & Over",
-        "date": "2026-02-18",
-        "time": "9:30 am - 11:00 am",
-        "location": "356 Main Road, Montville Township, NJ",
-        "category": "Fitness / Community / Seniors",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Senior Aerobics - Seniors 55 & Over",
-        "date": "2026-02-18",
-        "time": "11:30 am - 12:30 pm",
-        "location": "356 Main Road, Montville Township, NJ",
-        "category": "Health & Wellness / Community / Seniors",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Health & Fitness with Justin Chen (Tai Chi) - Seniors 55 & Over",
-        "date": "2026-02-18",
-        "time": "1:00 pm - 2:00 pm",
-        "location": "356 Main Road, Montville Township, NJ",
-        "category": "Health & Wellness / Community / Seniors",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Montville Senior Club Meeting & Bingo",
-        "date": "2026-02-20",
-        "time": "1:00 pm - 2:00 pm",
-        "location": "Montville Senior House, Montville Township, NJ",
-        "category": "Community / Social / Seniors",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Strength, Balance & Mobility Class - Seniors 55 & Over",
-        "date": "2026-02-23",
-        "time": "9:30 am - 10:15 am",
-        "location": "356 Main Road, Montville Township, NJ",
-        "category": "Health & Wellness / Community",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Tai Chi - Seniors 55 & Over",
-        "date": "2026-02-23",
-        "time": "10:30 am - 11:00 am",
-        "location": "356 Main Road, Montville Township, NJ",
-        "category": "Health & Wellness / Community",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Chair Yoga - Seniors 55 & Over",
-        "date": "2026-02-23",
-        "time": "1:00 pm - 2:00 pm",
-        "location": "356 Main Road, Montville Township, NJ",
-        "category": "Health & Wellness / Community",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Qigong for Beginners - Seniors 55 & Over",
-        "date": "2026-02-26",
-        "time": "1:30 pm - 2:30 pm",
-        "location": "356 Main Road, Montville Township, NJ",
-        "category": "Health & Wellness / Community",
-        "url": "https://montvillenj.org/Calendar.aspx",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Denville American Heart Month Blood Drive",
-        "date": "2026-02-17",
-        "time": null,
-        "location": "Denville, NJ",
-        "category": "Community / Health",
-        "url": "https://patch.com/new-jersey/denville-nj/calendar/event/20260217/49ef9244-e4c4-40a8-b272-0d2f4e254c2f/denville-american-heart-month-blood-drive",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Saturday Storytime (Preschool Ages)",
-        "date": "2026-03-07",
-        "time": "10:30 am - 11:15 am",
-        "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
-        "category": "Community / Kids / Library",
-        "url": "https://www.eventbrite.com/e/saturday-storytime-preschool-ages-library-meeting-room-tickets-1982304500000",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Storytime & Craft (Kids of All Ages)",
-        "date": "2026-03-14",
-        "time": "11:00 am - 12:00 pm",
-        "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
-        "category": "Community / Kids / Crafts",
-        "url": "https://www.eventbrite.com/e/storytime-craft-kids-of-all-ages-library-tickets-1982304501111",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Fine Motor Fun (Preschool Ages)",
-        "date": "2026-03-21",
-        "time": "10:30 am - 11:15 am",
-        "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
-        "category": "Community / Kids / Library",
-        "url": "https://www.eventbrite.com/e/fine-motor-fun-all-preschool-ages-library-meeting-room-tickets-1982470259914",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "STEM Exploration (Ages 5–10)",
-        "date": "2026-03-28",
-        "time": "1:00 pm - 2:00 pm",
-        "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
-        "category": "Community / Kids / STEM",
-        "url": "https://www.eventbrite.com/e/stem-exploration-ages-5-10-library-meeting-room-tickets-1982475555555",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Glass Fusion Workshop",
-        "date": "2026-04-04",
-        "time": "1:00 pm - 3:00 pm",
-        "location": "Denville Community Center, 100 Diamond Spring Road, Denville, NJ",
-        "category": "Community / Arts & Crafts / Family Friendly",
-        "url": "https://www.eventbrite.com/e/glass-fusion-workshop-denville-community-center-tickets-1982444444444",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Library LEGO® Build Challenge (Ages 6–12)",
-        "date": "2026-04-11",
-        "time": "2:00 pm - 3:00 pm",
-        "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
-        "category": "Community / Kids / STEM / Crafts",
-        "url": "https://www.eventbrite.com/e/library-lego-build-challenge-ages-6-12-tickets-1982476666666",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "The Great Big PLANT Swap",
-        "date": "2026-04-18",
-        "time": "11:00 am - 2:00 pm",
-        "location": "Ayres Knuth Farm, 25 Cooper Road, Denville, NJ",
-        "category": "Community / Garden / Family Friendly",
-        "url": "https://www.eventbrite.com/e/the-great-big-plant-swap-apr-18-tickets-1432060915749",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Kids Coding Club (Ages 8–12)",
-        "date": "2026-05-02",
-        "time": "3:00 pm - 4:00 pm",
-        "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
-        "category": "Community / Kids / STEM",
-        "url": "https://www.eventbrite.com/e/kids-coding-club-ages-8-12-library-tickets-1982477777777",
-        "latitude": null,
-        "longitude": null
-    },
-    {
-        "name": "Garlic Fan Fest",
-        "date": "2026-06-13",
-        "time": "2:00 pm - 8:00 pm",
-        "location": "Todd Johnson Field, 102 Riverside Drive, Denville, NJ",
-        "category": "Community / Festival / Food & Vendors",
-        "url": "https://www.eventbrite.com/e/garlic-fan-fest-tickets-1978777539889",
-        "latitude": null,
-        "longitude": null
-    }
+  {
+    "name": "Patriotic Pairings: Charcuterie & Lemonade",
+    "date": "2026-02-14",
+    "time": "10:00 am - 12:00 pm",
+    "location": "Randolph Township Community Center, Randolph, NJ",
+    "category": "Family Friendly / Food & Workshop",
+    "url": "https://morristourism.org/events/patriotic-pairings-charcuterie-lemonade/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Valentine\u2019s Couples Hike",
+    "date": "2026-02-14",
+    "time": "10:00 am - 12:00 pm",
+    "location": "Pyramid Mountain Natural Historic Area, Montville, NJ",
+    "category": "Outdoor & Recreation / Family Friendly",
+    "url": "https://morristourism.org/events/valentines-couples-hike/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Sleeping Beauty: Classics for Kids!",
+    "date": "2026-02-14",
+    "time": "11:00 am - 12:00 pm",
+    "location": "The Shakespeare Theatre of New Jersey, Madison, NJ",
+    "category": "Family Friendly / Theatre",
+    "url": "https://shakespearenj.org/performances/sleeping-beauty-classics-for-kids/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Maple Sugaring Demos (Weekend Sessions)",
+    "start_date": "2026-02-15",
+    "end_date": "2026-02-22",
+    "time": "1:00 pm & 2:30 pm",
+    "location": "Great Swamp Outdoor Education Center, Chatham Twp, NJ",
+    "category": "Family Friendly / Outdoor & Recreation",
+    "url": "https://www.morrisparks.net/events/maple-sugaring-demos/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Booked 20: Formations Presented by METC",
+    "date": "2026-02-17",
+    "time": "10:00 am - 4:00 pm",
+    "location": "Museum of Early Trades & Crafts, Madison, NJ",
+    "category": "Arts & Culture / Exhibition",
+    "url": "https://metc.org/formations/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Digital Divine: Featuring the Works of Jo-El Lopez",
+    "date": "2026-02-17",
+    "time": "11:00 am - 5:00 pm",
+    "location": "Morris Museum, Morristown, NJ",
+    "category": "Arts & Culture / Exhibition",
+    "url": "https://www.morrismuseum.org/exhibitions/digital-divine-jo-el-lopez/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Contemporary Volumes",
+    "date": "2026-02-17",
+    "time": "11:00 am - 5:00 pm",
+    "location": "Morris Museum, Morristown, NJ",
+    "category": "Arts & Culture / Exhibition",
+    "url": "https://www.morrismuseum.org/exhibitions/contemporary-volumes/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Perennial Land (ongoing exhibition)",
+    "start_date": "2025-11-07",
+    "end_date": "2026-04-05",
+    "time": "11:00 am - 5:00 pm",
+    "location": "Morris Museum, Morristown, NJ",
+    "category": "Arts & Culture / Exhibition",
+    "url": "https://www.morrismuseum.org/exhibitions/perennial-land/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Iconic: Kathleen Gilje Repaints Art History (ongoing exhibition)",
+    "start_date": "2025-11-21",
+    "end_date": "2026-04-30",
+    "time": "11:00 am - 5:00 pm",
+    "location": "Morris Museum, Morristown, NJ",
+    "category": "Arts & Culture / Exhibition",
+    "url": "https://www.morrismuseum.org/exhibitions/iconic-kathleen-gilje/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Notes on Napkins",
+    "date": "2026-02-17",
+    "time": "11:00 am - 5:00 pm",
+    "location": "Morris Museum, Morristown, NJ",
+    "category": "Arts & Culture / Exhibition",
+    "url": "https://www.morrismuseum.org/exhibitions/notes-on-napkins/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Artist Workshop with Cat Doty",
+    "date": "2026-02-21",
+    "time": "1:00 pm - 3:00 pm",
+    "location": "METC Education Annex, Madison, NJ",
+    "category": "Arts & Culture / Workshop",
+    "url": "https://metc.org/workshops/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Revolutionary Voices: The Devil\u2019s Disciple",
+    "date": "2026-02-23",
+    "time": "7:30 pm - 9:30 pm",
+    "location": "F.M. Kirby Shakespeare Theatre, Madison, NJ",
+    "category": "Arts & Culture / Theatre",
+    "url": "https://shakespearenj.org/performances/revolutionary-voices-the-devils-disciple/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hiking Through History: Winter!",
+    "date": "2026-02-28",
+    "time": "10:00 am - 11:00 am",
+    "location": "Pyramid Mountain Natural Historic Area, Montville, NJ",
+    "category": "Outdoor & Recreation / Family Friendly",
+    "url": "https://www.morrisparks.net/activities/hiking-through-history/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "A Taste of Morristown",
+    "date": "2026-03-02",
+    "time": "6:00 pm - 9:00 pm",
+    "location": "The Westin Governor Morris, Morristown, NJ",
+    "category": "Dining & Fundraiser",
+    "url": "https://www.eventcreate.com/e/taste2026",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Family Nature Stroll",
+    "date": "2026-03-08",
+    "time": "10:00 am - 11:00 am",
+    "location": "Great Swamp Outdoor Education Center, NJ",
+    "category": "Family Friendly / Nature",
+    "url": "https://www.morrisparks.net/events/family-nature-stroll/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Spring CraftMorristown",
+    "start_date": "2026-03-13",
+    "end_date": "2026-03-15",
+    "time": "Fri 4:00 pm - 7:00 pm / Sat 10:00 am - 5:00 pm / Sun 10:00 am - 4:00 pm",
+    "location": "Morristown National Guard Armory, Morristown, NJ",
+    "category": "Arts & Culture / Shopping / Community",
+    "url": "https://morristourism.org/events/spring-craftmorristown/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Patriotic Pairings: Charcuterie & Lemonade (repeat class)",
+    "date": "2026-03-14",
+    "location": "Randolph Township Community Center, Randolph, NJ",
+    "category": "Family Friendly / Food & Workshop",
+    "url": "https://morristourism.org/events/patriotic-pairings-charcuterie-lemonade/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hiking Through History: Spring Session",
+    "date": "2026-03-14",
+    "time": "10:00 am - 11:00 am",
+    "location": "Pyramid Mountain Natural Historic Area, Montville, NJ",
+    "category": "Family Friendly / Outdoor & Recreation",
+    "url": "https://www.morrisparks.net/activities/hiking-through-history/",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "From The North \u2013 Cultural Material and Living Heritage of Inuit Art",
+    "start_date": "2026-02-13",
+    "end_date": "2026-06-30",
+    "location": "Morris Museum, Morristown, NJ",
+    "category": "Arts & Culture / Exhibition",
+    "url": "https://morrismuseum.org/on-view/current",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fresh Perspectives 2026",
+    "start_date": "2026-03-06",
+    "end_date": "2026-05-10",
+    "location": "Morris Museum, Morristown, NJ",
+    "category": "Arts & Culture / Exhibition",
+    "url": "https://morrismuseum.org/on-view/upcoming/fresh-perspectives-2026",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Common Ground: NJ Artists Think Monumental",
+    "start_date": "2026-05-28",
+    "end_date": "2026-08-23",
+    "location": "Morris Museum Grounds, Morristown, NJ",
+    "category": "Arts & Culture / Outdoor Exhibition",
+    "url": "https://morrismuseum.org/on-view/upcoming/common-ground-nj-artists-think-monumental",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Parsippany PAL Wrestling 2026 Tricky Tray & Pasta Night",
+    "date": "2026-02-28",
+    "time": null,
+    "location": "Parsippany Police Athletic League, Parsippany\u2011Troy Hills, NJ",
+    "category": "Community / Family Friendly / Fundraiser",
+    "url": "https://www.eventbrite.com/e/parsippany-pal\u2011wrestling\u20112026\u2011tricky\u2011tray\u2011pasta\u2011night\u2011<id>",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Dark Force Fest 2026",
+    "start_date": "2026-05-01",
+    "end_date": "2026-05-03",
+    "time": "Various (see organizer)",
+    "location": "Sheraton Parsippany Hotel, Parsippany\u2011Troy Hills, NJ",
+    "category": "Festival / Music / Community",
+    "url": "https://www.eventbrite.com/e/dark\u2011force\u2011fest\u20112026\u2011tickets\u2011<id>",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Northern New Jersey Job Fair",
+    "date": "2026-03-24",
+    "time": "6:00 pm - 8:00 pm",
+    "location": "Embassy Suites by Hilton Parsippany, 909 Parsippany Blvd, Parsippany\u2011Troy Hills, NJ 07054",
+    "category": "Community / Career / Free",
+    "url": "https://www.eventbrite.com/e/northern\u2011new\u2011jersey\u2011job\u2011fair\u2011march\u201124th\u2011sales\u2011management\u2011focused\u2011tickets\u20111983058125235",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Montville Senior Midday Friendship Luncheon",
+    "date": "2026-02-17",
+    "time": "10:30 am - 1:00 pm",
+    "location": "356 Main Road, Montville Township, NJ",
+    "category": "Community / Social / Senior Friendly",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Line Dancing - Seniors 55 & Over",
+    "date": "2026-02-18",
+    "time": "9:30 am - 11:00 am",
+    "location": "356 Main Road, Montville Township, NJ",
+    "category": "Fitness / Community / Seniors",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Senior Aerobics - Seniors 55 & Over",
+    "date": "2026-02-18",
+    "time": "11:30 am - 12:30 pm",
+    "location": "356 Main Road, Montville Township, NJ",
+    "category": "Health & Wellness / Community / Seniors",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Health & Fitness with Justin Chen (Tai Chi) - Seniors 55 & Over",
+    "date": "2026-02-18",
+    "time": "1:00 pm - 2:00 pm",
+    "location": "356 Main Road, Montville Township, NJ",
+    "category": "Health & Wellness / Community / Seniors",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Montville Senior Club Meeting & Bingo",
+    "date": "2026-02-20",
+    "time": "1:00 pm - 2:00 pm",
+    "location": "Montville Senior House, Montville Township, NJ",
+    "category": "Community / Social / Seniors",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Strength, Balance & Mobility Class - Seniors 55 & Over",
+    "date": "2026-02-23",
+    "time": "9:30 am - 10:15 am",
+    "location": "356 Main Road, Montville Township, NJ",
+    "category": "Health & Wellness / Community",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Tai Chi - Seniors 55 & Over",
+    "date": "2026-02-23",
+    "time": "10:30 am - 11:00 am",
+    "location": "356 Main Road, Montville Township, NJ",
+    "category": "Health & Wellness / Community",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Chair Yoga - Seniors 55 & Over",
+    "date": "2026-02-23",
+    "time": "1:00 pm - 2:00 pm",
+    "location": "356 Main Road, Montville Township, NJ",
+    "category": "Health & Wellness / Community",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Qigong for Beginners - Seniors 55 & Over",
+    "date": "2026-02-26",
+    "time": "1:30 pm - 2:30 pm",
+    "location": "356 Main Road, Montville Township, NJ",
+    "category": "Health & Wellness / Community",
+    "url": "https://montvillenj.org/Calendar.aspx",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Denville American Heart Month Blood Drive",
+    "date": "2026-02-17",
+    "time": null,
+    "location": "Denville, NJ",
+    "category": "Community / Health",
+    "url": "https://patch.com/new-jersey/denville-nj/calendar/event/20260217/49ef9244-e4c4-40a8-b272-0d2f4e254c2f/denville-american-heart-month-blood-drive",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Saturday Storytime (Preschool Ages)",
+    "date": "2026-03-07",
+    "time": "10:30 am - 11:15 am",
+    "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
+    "category": "Community / Kids / Library",
+    "url": "https://www.eventbrite.com/e/saturday-storytime-preschool-ages-library-meeting-room-tickets-1982304500000",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Storytime & Craft (Kids of All Ages)",
+    "date": "2026-03-14",
+    "time": "11:00 am - 12:00 pm",
+    "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
+    "category": "Community / Kids / Crafts",
+    "url": "https://www.eventbrite.com/e/storytime-craft-kids-of-all-ages-library-tickets-1982304501111",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fine Motor Fun (Preschool Ages)",
+    "date": "2026-03-21",
+    "time": "10:30 am - 11:15 am",
+    "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
+    "category": "Community / Kids / Library",
+    "url": "https://www.eventbrite.com/e/fine-motor-fun-all-preschool-ages-library-meeting-room-tickets-1982470259914",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "STEM Exploration (Ages 5\u201310)",
+    "date": "2026-03-28",
+    "time": "1:00 pm - 2:00 pm",
+    "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
+    "category": "Community / Kids / STEM",
+    "url": "https://www.eventbrite.com/e/stem-exploration-ages-5-10-library-meeting-room-tickets-1982475555555",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Glass Fusion Workshop",
+    "date": "2026-04-04",
+    "time": "1:00 pm - 3:00 pm",
+    "location": "Denville Community Center, 100 Diamond Spring Road, Denville, NJ",
+    "category": "Community / Arts & Crafts / Family Friendly",
+    "url": "https://www.eventbrite.com/e/glass-fusion-workshop-denville-community-center-tickets-1982444444444",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Library LEGO\u00ae Build Challenge (Ages 6\u201312)",
+    "date": "2026-04-11",
+    "time": "2:00 pm - 3:00 pm",
+    "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
+    "category": "Community / Kids / STEM / Crafts",
+    "url": "https://www.eventbrite.com/e/library-lego-build-challenge-ages-6-12-tickets-1982476666666",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "The Great Big PLANT Swap",
+    "date": "2026-04-18",
+    "time": "11:00 am - 2:00 pm",
+    "location": "Ayres Knuth Farm, 25 Cooper Road, Denville, NJ",
+    "category": "Community / Garden / Family Friendly",
+    "url": "https://www.eventbrite.com/e/the-great-big-plant-swap-apr-18-tickets-1432060915749",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Kids Coding Club (Ages 8\u201312)",
+    "date": "2026-05-02",
+    "time": "3:00 pm - 4:00 pm",
+    "location": "Denville Library, 121 Diamond Spring Road, Denville, NJ",
+    "category": "Community / Kids / STEM",
+    "url": "https://www.eventbrite.com/e/kids-coding-club-ages-8-12-library-tickets-1982477777777",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Garlic Fan Fest",
+    "date": "2026-06-13",
+    "time": "2:00 pm - 8:00 pm",
+    "location": "Todd Johnson Field, 102 Riverside Drive, Denville, NJ",
+    "category": "Community / Festival / Food & Vendors",
+    "url": "https://www.eventbrite.com/e/garlic-fan-fest-tickets-1978777539889",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Fighter 1 FF1-2601",
+    "date": "February 3, 2026 - June 20, 2026\nTuesdays 7:30PM-10:30PM\nSaturdays 8:00AM-5:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Fire-Fighter-1-FF1-2601-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at CIT Training: 8:30am-11:30am",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": null,
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/31826-CIT-Training",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Cannabis Impairment and DWI Recognition",
+    "date": "March 18, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Cannabis-Impairment-and-DWI-Recognition",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Defensive Tactics Refresher",
+    "date": "March 18, 2026 9:30AM-1:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/March-Defensive-Tactics-Refresher-16-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Pleasant View Village",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Pleasant View Village, 221 Mt. Pleasant Ave, Rockaway Township 07866",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/31826",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Trinity Soup Kitchen",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Trinity Soup Kitchen, 123 E. Blackwell St., Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/31826-NH-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Trinity Soup Kitchen 11am-3pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Trinity Soup Kitchen, 123 E Blackwell Street, Dover NJ 07801, Township of Denville 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/31826-Trinity-Soup-Kitchen",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Improvement Authority Meeting",
+    "date": "Pursuant to the provisions of the New Jersey Open Public Meetings Act, this meeting will be held in a hybrid fashion, both virtually via Cisco Webex (as indicated below), and in person in the Knox Conference Room, 5th Floor, Morris County Administration Building, Morristown, New Jersey at 5:00 p.m. The public is invited to attend the meeting either in-person at the above address, or via WebEx.",
+    "location": "Administration and Records Building, Knox Room, 5th Floor, 10 Court Street, Morristown 07960",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Improvement-Authority/About-the-Improvement-Authority/Meetings-1/318-Improvement-Authority-Meeting",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Community Resources Fair- Morristown High School",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Community Resources Fair-Morristown HS, 50 Early St, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/31826-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "The Below 100 Program",
+    "date": "March 19, 2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/March-of-The-Below-100-Program-4",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Youth Services Advisory Committee (YSAC) Meeting",
+    "date": "The YSAC is to serve as the mechanism to develop a responsive, accessible and integrated system of care for youth and young adults with special social/emotional needs and their families, as well as youth charged or adjudicated delinquent.",
+    "location": "1 Medical Drive, Morris Plains 07950",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Human-Services-Events/03192026-YSAC",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morristown/Twp. Library Time: 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morristown/Twp. Library, 1 Miller Road, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/31925-Morristown-Twp.-Library",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Planning Board Meeting",
+    "date": "The Planning Board reviews land subdivisions, site plans for land development, and advises the Board of County Commissioners.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/31926-Planning",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Nourish: 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "NourishNJ, 347 S Salem St, Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/32026-Nourish-Dover",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Nourish NJ",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Nourish NJ, 123 E. Blackwell St., Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/32026-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Basic Field Training Officer",
+    "date": "March 23-25, 2026 8:00AM-5:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Basic-Field-Training-Officer-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Career Fire Fighter-2602/2603",
+    "date": "March 23, 2026 - June 25, 2026 8:00AM-5:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Career-Fire-26022603",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Continuing Telecommunicator Education",
+    "date": "March 23, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Continuing-Telecommunicator-Education",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Chatham Shoprite 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Chatham Shoprite, 641 Shunpike Rd, Chatham Township 07928",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/32326-Chatham-Shoprite",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Village Green Apartments",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Village Green Apartments, 75 Village Green, Mount Olive 07828",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/32326-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Incident Safety Officer-16 Hour Course",
+    "date": "March 23 -April 6, 2026 7:00PM-10:30PM\nMondays & Wednesdays",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Incident-Safety-Officer-16-Hour-Course",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morris County Aftercare Center: 6:30-12:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morris County Aftercare Center, 273 E. Main Street, Township of Denville 07834",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/32426-Morris-County-Aftercare-Center",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Morris After Care",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Morris Aftercare, 273 E. main St, Township of Denville 07834",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/32426-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Emergency Medical Dispatch",
+    "date": "March 24-27, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Emergency-Medical-Dispatch",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Cell Block Management and Suicide Awareness",
+    "date": "March 24, 2026 9:00AM-11:00AM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Cell-Block-Management-and-Suicide-Awareness",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "MC Trail Construction Grant Committee \u2013 2026 Workshop",
+    "date": "This committee reviews, prioritizes and makes funding recommendations to the Morris County Board of County Commissioners on the funding of trail construction projects.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/32426-Trail",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Morristown Housing Authority",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Morristown Housing Authority, 24 Ann St, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/32426",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Human Services Advisory Council (HSAC) Meeting",
+    "date": "The Human Services Advisory Council (HSAC) is established to review county-level human service activities and to serve as the primary vehicle for local public input into New Jersey Department of Human Services decision-making.",
+    "location": "1 Medical Drive, Morris Plains 07950",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Human-Services-Events/03242026-HSAC",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Service Harness",
+    "date": "March 24-26, 2026 7:30PM-10:30PM\nTuesdays & Thursdays",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Fire-Service-Harness-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morristown Green: 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morristown Green, 10 N Park Place, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/32526-Morristown-Green",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Our Promise",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Our Promise, 51 Washington St, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/32526-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Soil Conservation District Meeting",
+    "date": "We work with private landowners and regulates the construction industry to reduce soil erosion and promote proper conservation measures.",
+    "location": "30 Schuyler Placer, Morristown 07963",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Soil-Conservation-District/Soil-Meeting/032526-Soil",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "County Commissioner Work Session Meeting",
+    "date": "There is a public comment portion at every evening meeting.",
+    "location": "Administration and Records Building, 10 Court St, Morristown 07960",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Morris-County-Events/County-Commissioners-Meetings/32526-Work-Session-Meeting",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Saint Elizabeth University NARCAN Training: 5pm-6:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Saint Elizabeth University, 2 Covent Road, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/32526-NARCAN-Training-St.-Elizabeth-University",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "County Commissioner Regular Public Meeting",
+    "date": "There is a public comment portion at every evening meeting.",
+    "location": "Administration and Records Building, 10 Court St, Morristown 07960",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Morris-County-Events/County-Commissioners-Meetings/32526-County-Commissioner-Regular-Public-Meeting",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Firefighter 2 Intensive Hybrid 2604",
+    "date": "March 25 - May 9, 2026\n7:30PM-10:30PM Wednesdays\n8:00PM-5:00PM Saturdays",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Firefighter-2-Intensive-Hybrid-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Continuum of Care (CoC) Meeting",
+    "date": "The Morris County Continuum of Care is both a strategic planning body and a vehicle to carry out the responsibilities of a Continuum of Care as defined by the Department of Housing and Urban Development.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Human-Services-Events/03262026-CoC-Meeting",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Roxbury Rotary Time: 12:00pm-1:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Polo's, 140 Ledgewood Ave, Netcong 07857",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/32626-Roxbury-Rotary",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Construction Board of Appeals Meeting",
+    "date": "We hear appeals filed by owners of properties in Morris County from decisions, actions or inaction made by a municipal official.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/32626-Construction",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Juvenile Justice Update",
+    "date": "March 27, 2026 8:30AM-12:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Juvenile-Justice-Update",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Homeless Outreach Mission",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": null,
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/32726",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Homeless Outreach Mission",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": null,
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/32726-Homeless-Outreach",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at East Hanover Narcan Training: 7pm-9pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Community Center, 15 N Jefferson Road, Whippany 07981",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/32726-Hanover-NARCAN-training",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Family Promise Time: 11am-3pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Family Promise, 51 Washington Street, Morristown 07962",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/33026-Family-Promise",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Open Space Trust Fund Committee - Reorganization Meeting",
+    "date": "This committee reviews open space applications submitted by any of the 39 municipalities in the county as well as eligible land conservancies.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/33026-OS",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Instructor Level 2",
+    "date": "March 31-April 28, 2026 8:00AM-4:00PM\nTuesdays",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Fire-Instructor-Level-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Oak Ridge Acme: 9:00am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Acme Oak Ridge, 5774 Berkshire Valley Road, Jefferson Township 07438",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/33126-Oak-Ridge-Acme",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Oak Ridge ACME",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "ACME Oak Ridge, 5774 Berkshire Valley Rd, Jefferson Township 07438",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/33126-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Parsippany Library",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Parsippany Library, 449 Halsey Rd, Parsippany 07054",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/4126-NH-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Parsippany Library: 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Parsippany Library, 449 Halsey Rd, Parsippany 07054",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/4126-Parsippany-Library",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Defensive Tactics Refresher",
+    "date": "April 1, 2026 9:30AM-1:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/April-Defensive-Tactics-Refresher-3",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at New Hope Food Pantry",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "New Hope Food Pantry, 316 Dover Militon Rd, Jefferson Township 07438",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/4126-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Kinnelon Annual Health Fair Time: 8:30am-11:30am",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Kinnelon Community Health Fair, 121 Kinnelon Road, Kinnelon 07405",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/4226-Kinnelon-Annual-Health-Fair",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Kinnelon High School Health Fair",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Kinnelon High School Health Fair, 121 Kinnelon Rd, Kinnelon 07405",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/4226-NH-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Mountain Lakes Wellness Fair",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Mountain Lakes Wellness Fair, 96 Powerville Rd, Mountain Lakes 07046",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/4226-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Jefferson Diner 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Jefferson Diner, 5 Bowling Green Pkwy # 12, Jefferson Township 07849",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/4226-Jefferson-Diner",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Mount Olive Senior Center",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Mount Olive Senior Center, 204 Flanders-Drakestown Rd. Budd Lake NJ, Mount Olive 07828",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/4626-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Criminal Justice Information Systems (CJIS) & eAgent System Training",
+    "date": "April 7, 2026 8:30AM-1:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/April-Criminal-Justice-Information-Systems-CJIS-eAgent-System-Training-1-1-1-1-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Recovery Court: 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morris County Courthouse, 56 Washington Street, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/4726-Morris-County-Recovery-Court",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Manahan Village- Morristown",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Manahan Village- Morristown, 23 Clyde Potts Dr, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/4726-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Mount Olive Health Advocacy Fair: 6:30pm-8:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Mt. Olive High School, 18 Corey Road, Flanders 07836",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/4726-Mount-Olive-Health-Advocacy-Fair-Mount-Olive",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Verbal Judo De-escalation Through Intervention",
+    "date": "April 8, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Verbal-Judo-De-escalation-Through-Intervention",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at 9 year anniversary 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Calvary Baptist Church, 10 Martin Luther King Ave, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/482026-Hope-One-9-year-anniversary",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Dover Probation 12pm-4pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Dover Probation Office, 91 Bassett Highway, Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/4926-Dover-Probation",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Dover Probation",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Dover Probation, 91 Bassett Highway, Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/4926-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Human Relations Committee Meeting",
+    "date": "SECOND THURSDAY OF THE MONTH \u2013 5 PM\n\nHYBRID MEETINGS\n\nLOCATION \u2013 Adath Shalom Synagogue, 841 MOUNTAIN WAY, MORRIS PLAINS, NJ and Zoom (link will be provided)",
+    "location": "Adath Shalom Synagogue, 841 Mountain Way,  07054",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Relations-Commission/HRC-Events/Human-Relations-Committee-Meeting-April",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Housing Authority Meeting",
+    "date": "We develop and manage housing for low and moderate income residents of the County.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Housing-Authority/Housing-Authority-Meetings/04092026-MCHA",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Liquid Church: 10am-12pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Liquid Church, 299 Webro Rd, Parsippany 07054",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/41026-Liquid-Church",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at SMAC Health Fair: 8am-11am",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Senior House, 356 Main Road, Montville 07045",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/41126-SMAC-Health-Fair",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Montville Senior Center",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Montville Senior Center, 356 Main Road, Montville 07045",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/41126-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Street Smart Engine Operations",
+    "date": "April 11 - 12, 2026 8:00AM-5:00PM\nSaturday & Sunday",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Street-Smart-Engine-Operations",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Radar Instructor Refresher",
+    "date": "April 13, 2026 8:30AM-12:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Radar-Instructor-Refresher",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "DWI Essentials",
+    "date": "April 13, 2026, 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/DWI-Essentials",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "FEMA NIMS I-300",
+    "date": "April 13 - 15, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/FEMA-NIMS-I-300",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Trinity Soup Kitchen 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Trinity Soup Kitchen, 123 E Blackwell Street, Dover NJ 07801, Township of Denville 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/41326-Trinity-Soup-Kitchen",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at County College of Morris 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "County College of Morris, 214 Center Grove Road, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/41426-CCM",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at County College of Morris",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "County College of Morris- Student Community Center, 214 Center Grove Rd, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/41426-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Dover Board of Education",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Dover Board of Education, 21 Belmont Ave, Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/41526-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at CCM Substance Use Awareness Event Time: 12pm-2:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "County College of Morris, 214 Center Grove Road, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/41526-CCM-Substance-Use-Awareness-Event",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morristown Probation Time: 12pm-4pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morris County Courthouse, 10 Court St, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/41526-Morristown-Probation",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Improvement Authority Meeting",
+    "date": "Pursuant to the provisions of the New Jersey Open Public Meetings Act, this meeting will be held in a hybrid fashion, both virtually via Cisco Webex (as indicated below), and in person in the Knox Conference Room, 5th Floor, Morris County Administration Building, Morristown, New Jersey at 3:00 p.m. The public is invited to attend the meeting either in-person at the above address, or via WebEx.",
+    "location": "Administration and Records Building, Knox Room, 5th Floor, 10 Court Street, Morristown 07960",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Improvement-Authority/About-the-Improvement-Authority/Meetings-1/415-Improvement-Authority-Meeting",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "S.A.N.E./S.A.R.T. Training",
+    "date": "April 16, 2026 9:00AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/S.A.N.E.S.A.R.T.-Training",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Library of the Chathams",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Library of the Chathams, 214 Main St, Chatham Borough 07928",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/41626-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Interfaith food Pantry",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Interfaith Food Pantry, 2 Executive Drive, Morris Plains 07950",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/41626-NH-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Morristown Train Station",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Morristown Train Station, Morristown Train Station, Lackawanna Place, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/41726-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morristown Train Station: 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morristown Train Station, Lackawanna Place, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/41726-Morristown-Train-Station",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morris County Career Training Center Time: 9:30am-1:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morris County Career Training Center, 214 Center Grove Road, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/41826-Morris-County-Career-Training-Center",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Pequannock Library Time: 11am-3pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Pequannock Library, 477 Newark Pompton Turnpike, Parsippany 07444",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/4182026-Pequannock-Library",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Pequannock Township Public Library",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Pequannock Township Public Library, 477 Newark Pompton Turnpike, Mountain Lakes 07444",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/41826-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Sex Crime Investigation",
+    "date": "April 20-23, 2026 8:30AM-4:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Sex-Crime-Investigation",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Kinnelon Stop & Shop Time: 9-2",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Kinnelon Stop & Shop, 25 Kinnelon Rd, Kinnelon 07405",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/42026-Stop-Shop-Kinnelon",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Kinnelon Stop and Shop",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Kinnelon Stop & Shop, 25 Kinnelon Rd, Kinnelon 07405",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/42026-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Flood Mitigation Committee Meeting",
+    "date": "We review, prioritize and make funding recommendations about flood issues to the Morris County Board of County Commissioners.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/42026-Flood",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Domestic Violence/ Bloodborne Pathogens/Right to Know/Narcan",
+    "date": "April 21, 2026 8:30AM-1:00PM",
+    "location": null,
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Domestic-Violence-Blood-Borne-Right-to-Know-Narcan",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Board of Transportation Meeting",
+    "date": "We advise the Commissioners and work with local, regional, state, and federal agencies to preserve and improve transportation services and facilities in Morris County for residents, businesses, and visitors.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Engineering-Transportation/Board-of-Transportation-Meetings/BOT-42126",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Current Drug Trends",
+    "date": "April 22, 2026, 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Current-Drug-Trends",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Resiliency Officer Program",
+    "date": "April 22 & 23, 2026 8:30am-4:30pm",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Resiliency-Officer-Program",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Police Drill Instructor",
+    "date": "April 22-24, 2026 8:30AM-4:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Police-Drill-Instructor",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Denville Library: 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Denville Library, 121 Diamond Spring Rd, Township of Denville 07834",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/42226-Denville-Library",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Morris Aftercare",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Morris Aftercare, 273 E. Main Street, Township of Denville 07834",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/42326-NH-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "The Below 100 Program",
+    "date": "April 23, 2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-The-Below-100-Program-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Parsippany Food Pantry",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Parsippany Food Pantry, 781 Smith Rd, Parsippany 07054",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/42326-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Your Story Matters Time: 9am-12pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Jefferson Twp High School, 1010 Weldon Rd, Jefferson Township 07438",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/42626-Your-Story-Matters-Jefferson-5k",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Boro Plaza (Rockaway)",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Boro Plaza (Rockaway), 350 US-46 #1, Rockaway, Rockaway Township 07866",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/42726-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Boro Plaza: 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Boro Plaza (Rockaway), 350 US-46 #1, Rockaway, Rockaway Township 07866",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/42726-Boro-Plaza-Rockaway",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Official",
+    "date": "April 27- June 24, 2026 7:30PM-10:30PM\nMondays & Wednesdays",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Fire-Official",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Roxbury Women's Club: 7pm-8pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Roxbury Senior Center, 72 Eyland Ave, Roxbury 07876",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/42826-Roxbury-Womens-Club",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Morristown Green",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Morristown Green, 10 N Park Place, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/42926-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Roxbury: 5pm-7pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "8 Meeker Street, Roxbury 07876",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/42926-Roxbury-SEL",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Historic Preservation Board Meeting",
+    "date": "The board reviews, prioritizes and make recommendations to the Morris County Board of County Commissioners on the funding of historic preservation projects.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/42926-Historic",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Mount Olive Library",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Mount Olive Library, 202 Flanders-Drakestown Rd., Mount Olive 07836",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/043026-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at CCM (NARCAN Training) Time: 5pm-6pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "County College of Morris, 214 Center Grove Road, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/42026-CCM-NARCAN-Training",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "County Agriculture Development Board Meeting",
+    "date": "This board manages the Farmland Preservation Program.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/43026-Ag",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Case Law: Road Cop Essentials",
+    "date": "May 1, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Township 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Case-Law-Road-Cop-Essentials",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Church of Nazarene Time: 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Church of Nazarene, 188 Kiel Ave, Butler 07405",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/5126-Church-of-Nazarene",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Church of Nazarene",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Church of Nazarene, 188 Kiel Ave, Butler 07405",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/5126-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Community Day-Lafayette Learning Center",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Community Day- Lafayette Learning Center, 31 Hazel St., Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/522026-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Law of Interrogation, Video Recordings, Courtroom Testimony",
+    "date": "May 4, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Law-of-Interrogation-Video-Recordings-Eyewitness-IDs-Courtroom-Testimony",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Radar Instructor Course",
+    "date": "May 4-5, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Radar-Instructor-Course",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morris Plains Stop & Shop Time: 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morris Plains Stop & Shop, 245 Littleton Rd, Morris Plains 07950",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/5426-Morris-Plains-Stop-Shop",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Criminal Justice Information Systems (CJIS) & eAgent System Training",
+    "date": "May 5, 2026 8:30AM-1:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/May-Criminal-Justice-Information-Systems-CJIS-eAgent-System-Training-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "County Alliance Steering Subcommittee (CASS) Meeting",
+    "date": "The County Alliance Steering Subcommittee (CASS) is a subcommittee of the Mental Health Addictions Services Advisory Board and is responsible for the oversight of the Morris County Municipal Alliances.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Human-Services-Events/05052026-CASS-Meeting",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Fourth Annual Criminal Justice Day",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Fourth Annual Criminal Justice Day, 214 Center Grove Rd, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/5626-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at County College of Morris Time: 9:30am-1pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "County College of Morris, 214 Center Grove Road, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/5726-CCM-Criminal-Justice-Event",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at EDGE",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "EDGE NJ, 35 Waterview BLVD STE 201, Parsippany 07054",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/5726-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Career Pathways: 6:30pm-8:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morris County School of Technology, 400 East Main Street, Township of Denville 07834",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/5726-Career-Pathways-VoTech",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Nourish",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Nourish, 347 S Salem St, Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/5826-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Historic Preservation Board Site Visits",
+    "date": "The board reviews, prioritizes and make recommendations to the Morris County Board of County Commissioners on the funding of historic preservation projects.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/5926-Historic",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Law Enforcement Handling of Black Bear Complaints",
+    "date": "May 11, 2026 8:30AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Law-Enforcement-Handling-of-Black-Bear-Complaints",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Chester Shoprite 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Chester Shoprite, 183 US-206, Chester Township 07930",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/51126-Chester-Shoprite",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Chester Center",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Chester Shoprite, 183 US-206, Chester Borough 07930",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/51126-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morristown High School Time: 10:30am-11:30am",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morristown High School, 50 Early St, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/51326-Morristown-High-School",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Brookside Seniors Complex",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Brookside Seniors Complex, 1111 Parsippany Blvd, Parsippany 07054",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/51426-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Mental Health Addictions Services Advisory Board (MHASAB) Meeting",
+    "date": "The mission of the Mental Health Addictions Services Advisory Board (MHASAB) is to ensure that a full continuum of care is available, accessible and affordable to address the shared and specific mental health and substance use disorder prevention, education and treatment needs of Morris County residents.",
+    "location": "1 Medical Drive, Morris Plains 07950",
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Human-Services-Events/05142026-MHASAB",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Tactical Handgun",
+    "date": "May 15, 2026 8:30AM-4:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Tactical-Handgun",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Lincoln Park Color Run 1pm-5pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Lincoln Park Color Run, 90 Ryerson Road, Lincoln Park 07035",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/51526-Color-Run",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Canceled\nStreet Smart Truck Operations",
+    "date": "May 16 & 17, 2026 8:00AM-5:00PM\nSaturday & Sunday",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Street-Smart-Truck-Operations",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Hopatcong State Park: 10am-4pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Hopatcong State Park, 260 Lakeside Blvd, Roxbury 07850",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/51626-Lake-Hopatcong-Block-Park",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Dawncil's Family Fun Day Time: 11am-3:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Central Park, 91 Central Ave, Morris Plains 07950",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/51726-Central-Park-Family-Fun-Day",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "FEMA NIMS I-400",
+    "date": "May 18-19, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/FEMA-NIMS-I-400",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Dover Train Station",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Dover Train Station, E Dickerson Street, Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/52026-NH-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Dover Train Station: 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Dover Train Station, E Dickerson Street, Dover 07801",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/52026-Dover-Train-Station",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Defensive Tactics Refresher",
+    "date": "May 21, 2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/May-Defensive-Tactics-Refresher-9-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Crescent Plaza Time: 9am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Crescent Plaza, 184 Columbia Turnpike, Florham Park 07932",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/52126-Crescent-Plaza",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Crescent Plaza",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Crescent Plaza, 184 Columbia Turnpike, Florham Park 07932",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/52126-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Driver Simulator Training",
+    "date": "May 22 2026, 8:30AM-2:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Driver-Simulator-Training-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morris Plains Parade 9am-12pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morris Plains Annual Memorial Day Parade, intersection of Glenbrook Road and Mountain Way, Morris Plains 07950",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/52326-Morris-Plains-Parade",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Career Survival for Police Officers",
+    "date": "May 27, 2026 8:30AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Career-Survival-for-Police-Officers",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morristown County Library Time: 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Morris County Library, 30 E Hanover Ave, Whippany 07981",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/52726-Morris-County-Library",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at MHA: Morris Community Wellness Center : 11am-3pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "The Mental Health Association: Morris Community Wellness Center, 90 East Halsey Road, Parsippany 07054",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/52826-MHA-Morris-Community-Wellness-Center",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at MHA: Morris Community Wellness Center",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "MHA: Morris Community Wellness Center : 11am-3pm Location: The Mental Health Association: Morris Community Wellness Center, 90 East Halsey Road, Parsippany 07054",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/52826-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Navigating Hope at Homeless Outreach",
+    "date": "Navigating Hope is a mobile outreach initiative designed to provide social services.",
+    "location": "Homeless Outreach, Morristown, Morristown 07960",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Human-Services/Navigating-Hope-Stop/52926-NH",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Northwest NJ Out of the Darkness Walk: 8:30am-11:30am",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Jefferson Township Intermediate School, 1000 Weldon Rd, Jefferson Township 07438",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/53026-Northwest-NJ-Out-of-the-Darkness-Walk",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Advanced Crash Investigation",
+    "date": "June 1-12, 2026 8:00AM-4:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Advanced-Crash-Investigation",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Fighter 1- 2605",
+    "date": "June 1-July 10, 2026, 8:00AM-5:00PM\nMonday thru Friday",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Fire-Fighter-1-2605",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Telecommunicator's Training- 911 Basic 40 Hour Course",
+    "date": "June 3-9, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Telecommunicators-Training-911-Basic-40-Hour-Course-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Historic Preservation Board Applicant Presentations",
+    "date": "The board reviews, prioritizes and make recommendations to the Morris County Board of County Commissioners on the funding of historic preservation projects.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/6326-Historic",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "CPR/Bloodborne Pathogens",
+    "date": "June 6, 2026 8:00AM-4:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Copy-of-Copy-of-CPRBloodborne-Pathogens-1-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Firearms Instructor Course",
+    "date": "June 8-12, 2026 8:30AM-4:30 PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Firearms-Instructor-Course",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Rapid Intervention Crew (RIC) Training",
+    "date": "June 12-14, 2026\nFriday 6:30PM-10:30PM\nSaturday & Sunday 8:00AM-5:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Rapid-Intervention-Crew-RIC-Training",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Chatham Farmers Market 10am-2pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Chatham Farmer's Market, 54 Fairmount Ave, Chatham Borough 07928",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/61326-Chatham-Farmers-Market",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Historic Preservation Board Deliberations",
+    "date": "The board reviews, prioritizes and make recommendations to the Morris County Board of County Commissioners on the funding of historic preservation projects.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/61526-Historic",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Defensive Tactics Refresher",
+    "date": "June 17, 2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/June-Defensive-Tactics-Refresher-11",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Christ Church-The Care Center of NJ: 6pm-11pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "The CARE Center of New Jersey, 140 Green Pond Rd, Rockaway Township 07866",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/61826-Christ-Church-The-Care-Center-of-NJ",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Christ Church-The Care Center of NJ: 2pm-11pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "The CARE Center of New Jersey, 140 Green Pond Rd, Rockaway Township 07866",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/62026-Christ-Church-The-Care-Center-of-NJ",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Defensive Tactics Refresher",
+    "date": "June 24, 2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/June-Defensive-Tactics-Refresher-12-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Driver Simulator Training",
+    "date": "June 26, 2026 8:30AM-2:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Driver-Simulator-Training-3",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Introduction to the New Jersey 9-1-1 Network",
+    "date": "June 26, 2026 8:30am-4:30pm",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Introduction-to-the-New-Jersey-9-1-1-Network",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Morris County Pride Festival : 11am-4pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "County College of Morris, 214 Center Grove Rd, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/62726-Morris-County-Pride-Festival",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Jr FF 1-2606",
+    "date": "June 29 - August 7, 2026 8:00AM-5:00PM\nMonday thru Friday",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Jr-FF-1-2606",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Understanding Drug Impairment for SRO's & Educational Professionals",
+    "date": "July 6, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Understanding-Drug-Impairment-for-School-Resource-Officer-and-Educational-Professionals",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Criminal Justice Information Systems (CJIS) & eAgent System Training",
+    "date": "July 7, 2026 8:30AM-1:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/July-Criminal-Justice-Information-Systems-CJIS-eAgent-System-Training-1-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Defensive Tactics Refresher",
+    "date": "July 8, 2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/July-Defensive-Tactics-Refresher-13-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at County College of Morris 6-11pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "County College of Morris, 214 Center Grove Road, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/71026-Randolph-Freedom-Festival",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Defensive Tactics Refresher",
+    "date": "July 15, 2026 9:00AM-1:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/July-Defensive-Tactics-Refresher-13-1-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at 4H Fair 4pm-8pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "High View Farms, 416 Sand Shore Rd, Mount Olive 07828",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/72426-Hope-One-at-4H-Fair",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Driver Simulator Training",
+    "date": "July 31, 2026 8:30AM-2:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Driver-Simulator-Training-4",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "PTC 10 Day Defensive Tactics Instructor Course",
+    "date": "August 3-14, 2026 8:00AM-4:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/PTC-10-Day-Defensive-Tactics-Instructor-Course",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Strategy & Tactics",
+    "date": "August 3 - August 19, 2026, 6:30PM-10:30PM\nMondays & Wednesdays",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Strategy-Tactics",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fundamentals of At-Scene Crash Investigation",
+    "date": "August 10-14, 2026 8:30am-4:30pm",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Fundamentals-of-At-Scene-Crash-Investigation-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Safe School Resource Officer",
+    "date": "August 10 - 14, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Safe-School-Resource-Officer",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "The Below 100 Program",
+    "date": "August 13,2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-The-Below-100-Program-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Fighter 1-2607",
+    "date": "August 15-December 15, 2026\nTuesdays 7:30PM-10:30PM & Saturdays 8:00AM-5:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Fire-Fighter-1-2607",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Inspector",
+    "date": "August 17-December 2, 2026, 7:30PM-10:30PM\nMondays & Wednesdays",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Fire-Inspector-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Defensive Tactics Refresher",
+    "date": "August 26, 2026 9:30AM-1:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/August-Copy-of-Defensive-Tactics-Refresher-15",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at County College of Morris 1-2:30pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "County College of Morris, 214 Center Grove Road, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/82826-CCM-Backpack-Distribution",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Service Harness",
+    "date": "September 1 & 2, 2026, 7:30PM-10:00PM\nTuesday & Thursday",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Fire-Service-Harness",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Arrest Search & Seizure Update Search Warrant Preparation",
+    "date": "September 2, 2026 8:30AM-3:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Arrest-Search-Seizure-Update-Search-Warrant-Preparation-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Driver Simulator Training",
+    "date": "September 4, 2026 8:30AM-2:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Driver-Simulator-Training-5",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Career Fire Fighter-2608/2609",
+    "date": "September 8, 2026 - November 20, 2026 8:00AM-5:00PM\nMondays thru Fridays",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Copy-of-Career-Fire-Fighter",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Instructor Level 2",
+    "date": "September 8-October 7, 2026, 8:00AM-4:00PM\nTuesdays & Thursdays",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Fire-Instructor-Level-2-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Career Survival for First Line Supervisors",
+    "date": "September 9, 2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Career-Survival-for-First-Line-Supervisors-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Event Data Recorder Use in Traffic Crash Reconstruction",
+    "date": "September 14-18, 2026 8:00AM-4:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Event-Data-Recorder-Use-in-Traffic-Crash-Reconstruction",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "FEMA NIMS I-200",
+    "date": "September 14 & 15, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-FEMA-NIMS-I-200-3",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Telecommunicator's Training- 911 Basic 40 Hour Course",
+    "date": "September 16 - 22, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Sept-Telecommunicators-Training-911-Basic-40-Hour-Course-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "S.A.N.E./S.A.R.T. Training",
+    "date": "September 16, 2026 9:00AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-S.A.N.E.S.A.R.T.-Training-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Open Space Trust Fund Committee - Committee Application Review Meeting",
+    "date": "This committee reviews open space applications submitted by any of the 39 municipalities in the county as well as eligible land conservancies.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/91626-OS",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Internal Affairs Policy & Procedures",
+    "date": "September 17 - 18, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Internal-Affairs-Policy-Procedures",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Randolph Country Fair 11am-5pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Randolph Township Veterans Park & Community Garden, 100 Calais Rd, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/91926-Hope-One-at-Randolph-Country-Fair",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Domestic Violence, Bloodborne Pathogens/Right to Know/Narcan",
+    "date": "September 23, 2026, 8:30AM-1:00PM",
+    "location": null,
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Sept-Domestic-Violence-Blood-Borne-Right-to-Know-Narcan-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Firefighter 2 Intensive Hybrid 2610",
+    "date": "September 23 -November 7, 2026\n7:30PM-10:30PM Wednesdays\n8:00AM-5:00PM Saturdays",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Firefighter-2-Intensive-Hybrid-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "The Below 100 Program",
+    "date": "September 24, 2026 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/The-Below-100-Program",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Open Space Trust Fund Committee - Site Visits",
+    "date": "This committee reviews open space applications submitted by any of the 39 municipalities in the county as well as eligible land conservancies.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/92626-OS",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Continuing Telecommunicator Education",
+    "date": "September 28, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Continuing-Telecommunicator-Education-CTE-26-004",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Emergency Medical Dispatch",
+    "date": "September 29- October 2, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Emergency-Medical-Dispatch-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Career Survival for Police Officers",
+    "date": "September 30, 2026 8:30AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Career-Survival-for-Police-Officers-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Law Enforcement Handling of Black Bear Complaints",
+    "date": "October 5, 2026 8:30AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Law-Enforcement-Handling-of-Black-Bear-Complaints-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Fire Instructor Level 1",
+    "date": "October 6- November 24, 2026 8:00AM-4:00PM\nTuesdays",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Fire-Instructor-Level-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Expandable Straight\\MEB\\ Instructor Course",
+    "date": "October 7-8, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Expandable-StraightMEBSide-Handle-Baton-Instructor-Course-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at Netcong: 10:30am-11:30am",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "Netcong, 49 College Road, Netcong 07857",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/10926-Netcong-Seniors",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Street Smart Engine Operations",
+    "date": "October 10-11, 2026 8:00AM-5:00PM\nSaturday & Sunday",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Street-Smart-Engine-Operations-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "DWI Essentials",
+    "date": "October 13, 2026, 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-DWI-Essentials-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Megan's Law Update",
+    "date": "October 13, 2026, 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Megans-Law-Update",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Police Matron Course",
+    "date": "October 14, 2026 8:30AM-3:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Police-Matron-Course",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Cannabis Impairment and DWI Recognition",
+    "date": "October 14, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Cannabis-Impairment-and-DWI-Recognition-2",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Effective Death Investigation",
+    "date": "October 14 - 16, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Effective-Death-Investigation",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Tactical Handgun",
+    "date": "October 16, 2026 8:30AM-4:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Tactical-Handgun-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "FEMA NIMS I-300",
+    "date": "October 19 - 21, 2026 8:00AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morristown 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-FEMA-NIMS-I-300-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Criminal Justice Information Systems (CJIS) & eAgent System Training",
+    "date": "October 20, 2026 8:30AM-1:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Oct-Criminal-Justice-Information-Systems-CJIS-eAgent-System-Training-1-1-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Verbal Judo De-escalation Through Intervention",
+    "date": "October 21, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Verbal-Judo-De-escalation-Through-Intervention-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Domestic Violence, Bloodborne Pathogens/Right to Know/Narcan",
+    "date": "October 22, 2026, 8:30AM-1:00PM",
+    "location": null,
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Copy-of-Domestic-Violence-Blood-Borne-Right-to-Know-Narcan-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Basic Financial Crimes Investigation",
+    "date": "October 22, 2026 8:30AM-4:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Basic-Financial-Crimes-Investigation",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "OSTFC Applicant Presentations and Committee Deliberations",
+    "date": "This committee reviews open space applications submitted by any of the 39 municipalities in the county as well as eligible land conservancies.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/102226-OS",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Morris County Narcotics Update",
+    "date": "October 23, 2026 8:30PM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Morris-County-Narcotics-Update",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Performance and Accountability",
+    "date": "November 4 & 5, 2026 8:30AM - 5:00PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Leadership-Training-Performance-and-Accountability",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Canceled\nFingerprint Workshop",
+    "date": "November 5, 2026 8:30AM-12:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Fingerprint-Workshop-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Driver Simulator Training",
+    "date": "November 6, 2026 8:30AM-2:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Copy-of-Driver-Simulator-Training-4-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Current Drug Trends",
+    "date": "November 11, 2026, 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Current-Drug-Trends-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Law of Interrogation, Video Recordings, Courtroom Testimony",
+    "date": "November 12, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Law-of-Interrogation-Video-Recordings-Eyewitness-IDs-Courtroom-Testimony-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Street Smart Truck Operations",
+    "date": "November 14 & 15, 2026 8:00AM-5:00PM\nSaturday & Sunday",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Street-Smart-Truck-Operations-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "FEMA NIMS I-400",
+    "date": "November 16 & 17, 2026 8:30AM-4:30PM\nMonday & Tuesday",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Copy-of-FEMA-NIMS-I-400-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Interviewing & Interrogation The Reid Technique",
+    "date": "November 17- 20,2026 8:00AM-3:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Interviewing-Interrogation-The-Reid-Technique-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Methods of Instruction",
+    "date": "November 17-24, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Methods-of-Instruction-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Hope One at CCM Turkey Giveaway Time: 1pm-3pm",
+    "date": "Hope One is a mobile outreach vehicle for addiction, recovery, and mental health services.",
+    "location": "County College of Morris, 214 Center Grove Road, Randolph 07869",
+    "town": null,
+    "category": "Community Events",
+    "url": "https://www.morriscountynj.gov/Departments/Sheriff/Hope-One-Events/11202026-CCM-Thanksgiving-Food-Distribution",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Basic Computer Crimes Investigation",
+    "date": "November 23, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Basic-Computer-Crimes-Investigation",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Telecommunicator's Training- 911 Basic 40 Hour Course",
+    "date": "December 02-08, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Copy-of-Telecommunicators-Training-911-Basic-40-Hour-Course-2-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Firearms Instructor Course",
+    "date": "December 7-11, 2026 8:30AM-4:30 AM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Firearms-Instructor-Course-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Safe School Resource Officer",
+    "date": "December 7 - 11, 2026 8:30AM-4:30PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morristown 07963",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Safe-School-Resource-Officer-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "The Below 100 Program",
+    "date": "December 9, 2026, 8:00AM-12:00PM",
+    "location": "Morris County Public Safety Academy, 500 West Hanover Avenue, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Copy-of-The-Below-100-Program-3-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Open Space Trust Fund Committee",
+    "date": "This committee reviews open space applications submitted by any of the 39 municipalities in the county as well as eligible land conservancies.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/121426-OS",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Criminal Justice Information Systems (CJIS) & eAgent System Training",
+    "date": "December 22, 2026 8:30AM-1:30PM",
+    "location": "Morris County Public Safety Training Academy, 500 West Hanover Ave, Morris Plains, NJ 07950, Morris Plains 07950",
+    "town": null,
+    "category": "Classes",
+    "url": "https://www.morriscountynj.gov/Departments/Public-Safety-Training-Academy/Academy-Classes/Copy-of-Oct-Criminal-Justice-Information-Systems-CJIS-eAgent-System-Training-1-1-1-1-1",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Historic Preservation Board Reorganization Meeting",
+    "date": "The board reviews, prioritizes and make recommendations to the Morris County Board of County Commissioners on the funding of historic preservation projects.",
+    "location": null,
+    "town": null,
+    "category": "Meeting",
+    "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/11327-Historic",
+    "latitude": null,
+    "longitude": null
+  }
 ]
