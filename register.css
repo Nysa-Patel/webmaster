@@ -1,7 +1,7 @@
 /* ── Variables ── */
 :root {
   --white: #ffffff;
-  --blue: #1a56db;
+  /* --blue: #1a56db; */
   --blue-light: #3b82f6;
   --blue-pale: #eff6ff;
   --accent: #0ea5e9;
@@ -11,6 +11,35 @@
   --success: #16a34a;
   --danger: #dc2626;
   --radius: 16px;
+
+  /* Primary Blues */
+  --blue-dark: #1E3A8A;
+  --blue-primary: #405b9c;
+  --blue-accent: #6e96c7;
+
+  /* Light Backgrounds */
+  --blue-light: #DBEAFE;
+  --blue-very-light: #F0F7FF;
+
+  /* Text */
+  --text-dark: #0F172A;
+  --text-medium: #334155;
+  --text-light: #E0ECFF;
+
+  /* Base */
+  --white: #FFFFFF;
+
+  /* Shadows */
+  --shadow-soft: 0 6px 18px rgba(37, 99, 235, 0.15);
+  --shadow-medium: 0 12px 28px rgba(37, 99, 235, 0.25);
+
+  /* Borders */
+  --border-light: 1px solid var(--blue-light);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
 }
 
 /* ── Reset ── */
@@ -82,7 +111,7 @@ body {
 }
 
 .tab-btn:hover {
-  color: var(--blue);
+  color: var(--blue-primary);
   background: var(--blue-pale);
 }
 
@@ -196,7 +225,7 @@ input:focus {
 }
 
 .toggle-pw:hover {
-  color: var(--blue);
+  color: var(--blue-primary);
 }
 
 .has-toggle {
@@ -276,12 +305,12 @@ input:focus {
   height: 17px;
   margin-top: 2px;
   flex-shrink: 0;
-  accent-color: var(--blue);
+  accent-color: var(--blue-primary);
   cursor: pointer;
 }
 
 .check-label a {
-  color: var(--blue);
+  color: var(--blue-primary);
   text-decoration: none;
   font-weight: 500;
 }
@@ -301,7 +330,7 @@ input:focus {
   font-weight: 600;
   cursor: pointer;
   color: var(--white);
-  background: linear-gradient(135deg, var(--blue) 0%, #1248c0 100%);
+  background: linear-gradient(135deg, var(--blue-primary) 0%, #1248c0 100%);
   box-shadow: 0 4px 18px rgba(26, 86, 219, 0.28);
   transition: transform 0.15s, box-shadow 0.2s;
 }
@@ -324,7 +353,7 @@ input:focus {
 }
 
 .switch-hint a {
-  color: var(--blue);
+  color: var(--blue-primary);
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
