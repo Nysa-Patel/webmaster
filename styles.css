@@ -634,7 +634,7 @@ button {
   transition: 0.3s ease;
   background: var(--blue-primary);
   color: var(--white);
-  border-radius: var(--radius-sm)
+  border-radius: var(--radius-sm);
   font-family: "Funnel Display", sans-serif;
 }
 
