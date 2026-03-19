@@ -2331,5 +2331,105 @@
     "url": "https://www.morriscountynj.gov/Departments/Planning-and-Preservation/Planning-Meetings/11327-Historic",
     "latitude": null,
     "longitude": null
+  },
+  {
+    "name": "Exhibit: Declaration 1776: The Big Bang of Modern Democracy",
+    "date": "This exhibition uses primary sources to illustrate how Americans and people across the world have been inspired by the Declaration of Independence in their pursuit of equality and self-determination.",
+    "location": "Morris County Library",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Adults/2026-Exhibit-Declaration-1776",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Paws for Reading",
+    "date": "For ages 5-12.\nCome and read to a therapy dog!",
+    "location": "Morris County Library",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Children/2026-spring-paws",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Tech Help Mondays",
+    "date": "Bring your device and a librarian will answer your tech questions.",
+    "location": "2nd Floor, Morris County Library, 30 East Hanover Avenue,  07981",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Computer-Classes/2026-Tech-Help",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Mystery Book Club",
+    "date": "Mystery Book Clubs meets on the 4th Monday of the month, 7:00-8:00 p.m. Participants choose the books we read.",
+    "location": "Morris County Library",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Adults/Mystery-Book-Club",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Preschool Storytime and Music with Mr. Laurence.",
+    "date": "Stories, fingerplays and music with Mr. Laurence.\nFor ages 2-5.",
+    "location": "Morris County Library",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Children/Preschool-Storytime",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Excel III",
+    "date": "Learn different ways to perform calculations with functions. Sort your data and create a pie chart.",
+    "location": "Morris County Library",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Computer-Classes/2026-Mar25-Excel-III",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Socrates Cafe",
+    "date": "Do you enjoy deep, honest and respectful discussions of fundamental human questions? Then Join us at our Socrates Cafe, to discuss and debate using the using the cooperative argumentative dialogue of the Socratic Method.",
+    "location": "Morris County Library",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/General-Events/2026-Socrates-Cafe",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Spanish Conversation",
+    "date": "Come to the Morris County Library and practice your Spanish language proficiency in a casual small group environment.",
+    "location": "Morris County Library",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Adults/2026-spanish-conversation",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Introduction to Excel Tables",
+    "date": "Learn the basic steps to create tables, pivot tables and pivot charts, to quickly summarize and analyze data and display the results in a chart.",
+    "location": "Morris County Library",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Computer-Classes/2026-Mar31-Excel-Tables",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "name": "Be Bear Aware",
+    "date": "Bears are neighbors here in NJ. Learn about them and how to live around them through this program, presented by the Morris County Park Commission.",
+    "location": "Public Meeting Room, 30 East Hanover Ave.,  07981",
+    "town": "Morris County",
+    "category": "Library / Community",
+    "url": "https://www.mclib.info/Events/Adults/2026-03-31-Be-Bear-Aware",
+    "latitude": null,
+    "longitude": null
   }
 ]

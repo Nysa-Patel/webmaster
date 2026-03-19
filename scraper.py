@@ -2,27 +2,28 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-import time
 import json
 import os
+from datetime import datetime
 
 # -------------------------
-# Setup Chrome options
+# Setup browser (NO headless)
 # -------------------------
 chrome_options = Options()
-chrome_options.add_argument("--headless")  # run in background
-chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--no-sandbox")
+# DO NOT use headless here
 
-# -------------------------
-# Setup WebDriver
-# -------------------------
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
+wait = WebDriverWait(driver, 15)
+
+cutoff_date = datetime(2026, 3, 18)
+
 # -------------------------
-# Prepare existing data
+# Load existing JSON
 # -------------------------
 if os.path.exists("data.json"):
     with open("data.json", "r") as f:
@@ -33,25 +34,28 @@ else:
 all_new_events = []
 
 # -------------------------
-# Loop through pages
+# Loop pages 1–8
 # -------------------------
-for page in range(1, 37):  # 36 pages
-    url = f"https://www.morriscountynj.gov/Morris-County-Events?dlv_OC%20CL%20Public%20Events%20Listing=(pageindex={page})"
-    print(f"Scraping page {page}...")
-    driver.get(url)
-    time.sleep(3)  # wait for page to load
+for page in range(1, 9):
+    url = f"https://www.mclib.info/Events?dlv_OC%20CL%20Public%20Events%20Listing=(pageindex={page})"
+    print("Scraping page", page)
 
-    # Find all event containers
-    events = driver.find_elements(By.CSS_SELECTOR, "div.list-item-container")
-    if not events:
-        print("No events found on this page, stopping.")
-        break
+    driver.get(url)
+
+    try:
+        wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".list-item-container")))
+    except:
+        print("Events did not load")
+        continue
+
+    events = driver.find_elements(By.CSS_SELECTOR, ".list-item-container")
+    print("Events found:", len(events))
 
     for e in events:
         try:
             title = e.find_element(By.CSS_SELECTOR, "h2.list-item-title").text
         except:
-            title = None
+            continue
 
         try:
             link = e.find_element(By.TAG_NAME, "a").get_attribute("href")
@@ -59,52 +63,54 @@ for page in range(1, 37):  # 36 pages
             link = None
 
         try:
-            date_range = e.find_element(By.CSS_SELECTOR, "span.list-item-block-desc").text
+            date_text = e.find_element(By.CSS_SELECTOR, ".list-item-block-desc").text
         except:
-            date_range = None
+            continue
 
         try:
-            location = e.find_element(By.CSS_SELECTOR, "p.list-item-address").text
+            location = e.find_element(By.CSS_SELECTOR, ".list-item-address").text
         except:
-            location = None
+            location = "Morris County Library"
 
+        # -------------------------
+        # FILTER DATE
+        # -------------------------
         try:
-            tags = e.find_element(By.CSS_SELECTOR, "p.tagged-as-list .text").text
+            first_line = date_text.split("\n")[0]
+            parsed_date = datetime.strptime(first_line.split(" - ")[0], "%B %d, %Y")
+            if parsed_date < cutoff_date:
+                continue
         except:
-            tags = None
+            pass
 
         all_new_events.append({
             "name": title,
-            "date": date_range,
+            "date": date_text,
             "location": location,
-            "town": None,  # fill manually if desired
-            "category": tags if tags else "Community / Family Friendly",
+            "town": "Morris County",
+            "category": "Library / Community",
             "url": link,
             "latitude": None,
             "longitude": None
         })
 
-# -------------------------
-# Close browser
-# -------------------------
 driver.quit()
 
 # -------------------------
-# Merge with existing data.json
+# Merge + dedupe
 # -------------------------
 combined = existing_events + all_new_events
 
-# Remove duplicates based on name + date
 unique_events = []
 seen = set()
+
 for event in combined:
     key = (event.get("name"), event.get("date"))
     if key not in seen:
         seen.add(key)
         unique_events.append(event)
 
-# Save merged data
 with open("data.json", "w") as f:
     json.dump(unique_events, f, indent=2)
 
-print(f"✅ Scraping complete! Total events now in data.json: {len(unique_events)}")
+print("✅ DONE! Total events:", len(unique_events))
