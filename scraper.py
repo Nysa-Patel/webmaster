@@ -8,19 +8,18 @@ from webdriver_manager.chrome import ChromeDriverManager
 import json
 import os
 from datetime import datetime
+import time
 
 # -------------------------
 # Setup browser (NO headless)
 # -------------------------
 chrome_options = Options()
-# DO NOT use headless here
-
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 wait = WebDriverWait(driver, 15)
 
-cutoff_date = datetime(2026, 3, 18)
+cutoff_date = datetime(2026, 3, 31)
 
 # -------------------------
 # Load existing JSON
@@ -34,18 +33,19 @@ else:
 all_new_events = []
 
 # -------------------------
-# Loop pages 1–8
+# Loop pages (adjust if needed)
 # -------------------------
-for page in range(1, 9):
-    url = f"https://www.mclib.info/Events?dlv_OC%20CL%20Public%20Events%20Listing=(pageindex={page})"
+for page in range(1, 6):
+    url = f"https://morristourism.org/Events?dlv_OC%20CL%20Public%20Events%20Listing=(pageindex={page})"
     print("Scraping page", page)
 
     driver.get(url)
+    time.sleep(3)
 
     try:
         wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".list-item-container")))
     except:
-        print("Events did not load")
+        print("No events found")
         continue
 
     events = driver.find_elements(By.CSS_SELECTOR, ".list-item-container")
@@ -54,41 +54,55 @@ for page in range(1, 9):
     for e in events:
         try:
             title = e.find_element(By.CSS_SELECTOR, "h2.list-item-title").text
-        except:
-            continue
-
-        try:
             link = e.find_element(By.TAG_NAME, "a").get_attribute("href")
         except:
-            link = None
+            continue
 
         try:
-            date_text = e.find_element(By.CSS_SELECTOR, ".list-item-block-desc").text
+            desc = e.find_element(By.CSS_SELECTOR, ".list-item-block-desc").text
         except:
-            continue
+            desc = ""
 
         try:
             location = e.find_element(By.CSS_SELECTOR, ".list-item-address").text
         except:
-            location = "Morris County Library"
+            location = None
 
         # -------------------------
-        # FILTER DATE
+        # DATE FILTER LOGIC
         # -------------------------
+        keep = False
+
         try:
-            first_line = date_text.split("\n")[0]
-            parsed_date = datetime.strptime(first_line.split(" - ")[0], "%B %d, %Y")
-            if parsed_date < cutoff_date:
-                continue
+            # Example formats:
+            # "February 3, 2026 - June 20, 2026"
+            # "March 15, 2026"
+            first_line = desc.split("\n")[0]
+
+            if " - " in first_line:
+                start_str, end_str = first_line.split(" - ")
+                end_date = datetime.strptime(end_str.strip(), "%B %d, %Y")
+
+                # keep if event is still ongoing after March 31
+                if end_date >= cutoff_date:
+                    keep = True
+            else:
+                event_date = datetime.strptime(first_line.strip(), "%B %d, %Y")
+                if event_date >= cutoff_date:
+                    keep = True
+
         except:
-            pass
+            keep = True  # fallback (don’t lose data)
+
+        if not keep:
+            continue
 
         all_new_events.append({
             "name": title,
-            "date": date_text,
+            "date": desc,
             "location": location,
-            "town": "Morris County",
-            "category": "Library / Community",
+            "town": None,
+            "category": "Community / Tourism",
             "url": link,
             "latitude": None,
             "longitude": None
