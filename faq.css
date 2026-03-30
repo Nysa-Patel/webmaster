@@ -80,3 +80,106 @@ h1 {
     }
 }
 
+
+
+/* ===== footer ===== */
+.footer {
+    background: var(--blue-very-light);
+    color: var(--text-dark);
+    padding: 60px 10% 30px;
+    margin-top: 80px;
+    position: relative;
+    border-top: 2px solid var(--blue-light);
+  }
+  
+  .f-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: flex-start;
+  }
+  
+  .f-section.mission {
+    max-width: 200px;
+  }
+  
+  .footer-left {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .connect {
+    margin-left: auto;
+  }
+  
+  /* ===== TEXT ===== */
+  .f-section h3, 
+  .f-section h4 {
+    margin-bottom: 18px;
+    font-family: "Funnel Display", sans-serif;
+    color: var(--blue-dark);  
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .f-section p {
+    line-height: 1.6;
+    font-size: 0.85rem;
+    color: var(--text-medium); 
+    font-family: "Funnel Display", sans-serif;  
+  }
+  
+  /* ===== LINKS ===== */
+  .f-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .f-section ul li {
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+  }
+  
+  .f-section ul li a {
+    color: var(--text-medium);
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .f-section ul li a:hover {
+    color: var(--blue-primary);  
+    text-decoration: underline;
+  }
+  
+  /* ===== BUTTON ===== */
+  .button-link {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    border: 1px solid var(--blue-dark);
+    color: var(--blue-dark);
+    transition: all 0.25s ease;
+  }
+  
+  .button-link:hover {
+    background: var(--blue-light);
+    border-color: var(--blue-light);
+    transform: translateY(-2px);
+  }
+  
+  /* ===== BOTTOM ===== */
+  .bottom-footer {
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin-top: 40px;
+    padding-top: 20px;
+    font-family:  "Funnel Display", sans-serif;;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--blue-medium); 
+  }
+  .featured-section {
+    padding: 80px 0;
+  }

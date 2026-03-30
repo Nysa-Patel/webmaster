@@ -301,6 +301,9 @@ body {
   font-size: 1.2rem;
   z-index: 1001;
 }
+h1, h2, h3, h4, p, a, li, button {
+  font-family: "Funnel Display", sans-serif;
+}
 /* ===== HERO ===== */
 .hero {
   width: 100%;
@@ -428,7 +431,7 @@ body {
 
 /* button */
 .primary-btn {
-    background: #2f5f9e;
+   background: var(--blue-primary);
     color: white;
     border: none;
     padding: 12px 22px;
@@ -444,12 +447,25 @@ body {
 }
 
 .primary-btn:hover {
-    background: #244c80;
+  background: var(--blue-dark);
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--blue-dark);
+  text-align: center;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: var(--blue-dark);
+  margin-bottom: 10px;
 }
 
 /* search area */
 .search-section {
-    background: #f5f7fa;
+    background: var(--blue-very-light);
     padding: 60px 0;
     text-align: center;
 }
@@ -500,16 +516,19 @@ body {
 }
 
 .vol-card {
-    background: white;
-    padding: 35px;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    text-align: left;
-    min-height: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  background: var(--blue-very-light);
+  border: 1px solid var(--blue-light);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.vol-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+}
+
 
 /* Prev / Next buttons */
 .carousel-btn {
@@ -574,9 +593,16 @@ body {
 
 
 .how-it-works {
-    background: #eef2f7;
-    padding: 70px 0;
-    text-align: center;
+  background: var(--blue-light);
+  padding: 70px 0;
+  text-align: center;
+}
+
+.steps div {
+  background: var(--blue-very-light);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
 }
 
 .steps {
@@ -586,12 +612,129 @@ body {
     flex-wrap: wrap;
 }
 
-.steps div {
-    max-width: 250px;
+section {
+  margin-bottom: 40px;
 }
+
+
+
 
 
 .cta {
     text-align: center;
-    padding: 70px 0;
+    padding: 90px 0;
+}
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--blue-dark);
+    font-weight: 700;
+}
+
+.cta p{
+    font-size: 1.1rem;
+    color: var(--text-medium);
+    margin-bottom: 30px;
+}
+
+/* ===== footer ===== */
+.footer {
+  background: var(--blue-very-light);
+  color: var(--text-dark);
+  padding: 60px 10% 30px;
+  margin-top: 80px;
+  position: relative;
+  border-top: 2px solid var(--blue-light);
+}
+
+.f-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.f-section.mission {
+  max-width: 200px;
+}
+
+.footer-left {
+  display: flex;
+  gap: 80px;
+}
+
+.connect {
+  margin-left: auto;
+}
+
+/* ===== TEXT ===== */
+.f-section h3, 
+.f-section h4 {
+  margin-bottom: 18px;
+  font-family: "Funnel Display", sans-serif;
+  color: var(--blue-dark);  
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.f-section p {
+  line-height: 1.6;
+  font-size: 0.85rem;
+  color: var(--text-medium); 
+  font-family: "Funnel Display", sans-serif;  
+}
+
+/* ===== LINKS ===== */
+.f-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.f-section ul li {
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+}
+
+.f-section ul li a {
+  color: var(--text-medium);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.f-section ul li a:hover {
+  color: var(--blue-primary);  
+  text-decoration: underline;
+}
+
+/* ===== BUTTON ===== */
+.button-link {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  border: 1px solid var(--blue-dark);
+  color: var(--blue-dark);
+  transition: all 0.25s ease;
+}
+
+.button-link:hover {
+  background: var(--blue-light);
+  border-color: var(--blue-light);
+  transform: translateY(-2px);
+}
+
+/* ===== BOTTOM ===== */
+.bottom-footer {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin-top: 40px;
+  padding-top: 20px;
+  font-family:  "Funnel Display", sans-serif;;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--blue-medium); 
+}
+.featured-section {
+  padding: 80px 0;
 }
