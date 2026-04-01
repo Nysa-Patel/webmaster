@@ -336,12 +336,6 @@ html {
   display: block;
 }
 
-@keyframes scroll-arrow {
-  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-  40% { transform: translateY(-16px); }
-  60% { transform: translateY(-10px); }
-}
-
 .arrowandtext {
   position: absolute;
   bottom: 25px;
@@ -356,7 +350,117 @@ html {
   font-size: 14px;
   
 }
+
+
+.scroll-container {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: "Funnel Display", sans-serif;
+}
+
+.scroll-container span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.scroll-container i {
+  font-size: 26px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-12px); }
+  60% { transform: translateY(-6px); }
+}
 /* ===== VALUES SECTION ===== */
+.flip-card {
+  width: 300px;
+  height: 220px;
+  perspective: 1000px;
+}
+
+.flip-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+/* flip on hover */
+.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+
+/* BOTH SIDES */
+.flip-front, .flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  backface-visibility: hidden;
+
+  border-radius: 20px;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(200, 220, 255, 0.4);
+
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+}
+
+/* FRONT STYLE */
+.flip-front i {
+  font-size: 32px;
+  color: var(--blue-dark);
+  margin-bottom: 12px;
+}
+
+.flip-front h3 {
+  font-size: 1.4rem;
+  color: var(--blue-dark);
+  font-family: "Funnel Display", sans-serif;
+}
+
+/* BACK STYLE */
+.flip-back {
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+.flip-back p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "Funnel Display", sans-serif;
+}
+
+
+
+.card i {
+  font-size: 28px;
+  color: var(--blue-primary);
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover i {
+  transform: scale(1.2) rotate(5deg);
+}
+
+
 .values-section {
   padding: 80px 10%;
   text-align: center;
@@ -392,6 +496,50 @@ html {
 .values-section .card {
   width: 300px; 
   flex: 0 0 auto;
+}
+
+/* ===== IMPACT /STATS SECTION ===== */
+.impact-section {
+  padding: 20px 10%;
+  text-align: center;
+  background: white;
+}
+
+.impact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: var(--blue-dark);
+  font-family: "Funnel Display", sans-serif;
+}
+
+.impact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.impact-box {
+  background: var(--blue-very-light);
+  padding: 40px 80px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  transition: 0.3s ease;
+}
+
+.impact-box:hover {
+  transform: translateY(-8px);
+}
+
+.impact-box h3 {
+  font-size: 2rem;
+  color: var(--blue-dark);
+  font-family: "Funnel Display", sans-serif;
+}
+
+.impact-box p {
+  font-size: 17px;
+  font-family: "Funnel Display", sans-serif;
 }
 /* ===== STORY SECTION ===== */
 .story-section {
@@ -435,22 +583,31 @@ html {
   text-align: center;
   padding: 2.2rem 1.5rem;
 }
+.team-card .role {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--blue-primary);
+  margin-bottom: 8px;
+}
 .team-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 50px;
+  font-size: 50px;
+  margin-bottom: 20px;
   color: var(--blue-dark);
   text-align: center;
+  margin-bottom: 50px;
   font-family: "Funnel Display", sans-serif;
 }
 .team-section .card h3 {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 25px;
+  color: rgb(37, 57, 133);
   font-family: "Funnel Display", sans-serif;
 }
 
 .team-section .card p {
-  font-size: 0.9rem;
-  color: #555;
+  font-size: 15px;
+  color: gray;
   font-family: "Funnel Display", sans-serif;
 }
 

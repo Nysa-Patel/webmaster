@@ -479,9 +479,21 @@ h3 {
 
 .search-grid input,
 .search-grid select {
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+
+  background: white;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+
+  transition: 0.2s ease;
+}
+
+.search-grid input:focus,
+.search-grid select:focus {
+  outline: none;
+  border-color: var(--blue-primary);
+  box-shadow: 0 0 0 2px rgba(64, 91, 156, 0.15);
 }
 
 /* cards featured oppurtunity */
@@ -489,102 +501,154 @@ h3 {
     padding: 70px 0;
     text-align: center;
 }
+.volnteer-list h2 {
+    margin-bottom: 10px;
+    font-size: 2.0rem;
+}
 
 /* ── Carousel ── */
 .carousel {
-    position: relative;
-    max-width: 620px;
-    margin: 30px auto 0;
-    padding: 0 60px;
+  position: relative;
+  max-width: 1200px;
+  margin: 60px auto;
+  overflow-x: auto;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.carousel-viewport {
-    overflow: hidden;
-    margin: -20px -10px -30px;
-    padding: 20px 10px 30px;
+.carousel::-webkit-scrollbar {
+  display: none;
 }
 
+/* track */
 .carousel-track {
-    display: flex;
-    transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  gap: 20px;
+  padding: 20px;
 }
 
+/* slides */
 .carousel-slide {
-    min-width: 100%;
-    box-sizing: border-box;
-    padding: 20px 10px 30px;
+  flex: 0 0 33%;
+  scroll-snap-align: center;
+
+  transition: 0.4s ease;
+
+  transform: scale(0.85);
+  opacity: 0.5;
+  filter: blur(2px);
 }
 
+/* CENTER EFFECT */
+.carousel-slide:target,
+.carousel-slide:hover {
+  transform: scale(1);
+  opacity: 1;
+  filter: blur(0);
+  z-index: 2;
+}
+
+/* ── CARD ── */
 .vol-card {
-  background: var(--blue-very-light);
-  border: 1px solid var(--blue-light);
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: var(--shadow-soft);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(2px);
+
+  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.15);
 }
 
-.vol-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-medium);
+/* image */
+.vol-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+/* overlay */
+.vol-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+}
+
+/* text */
+.vol-card h3 {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  color: white;
+  font-size: 1.5rem;
+  z-index: 2;
+}
+
+.vol-card p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #e5e5e5;
+  font-size: 0.9rem;
+  z-index: 2;
+}
+
+/* button */
+.vol-card .primary-btn {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  z-index: 2;
 }
 
 
-/* Prev / Next buttons */
+
+
+/* ── ARROWS ── */
 .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.92);
-    border: 1px solid var(--blue-light);
-    color: var(--blue-primary);
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    font-size: 1.4rem;
-    line-height: 1;
-    cursor: pointer;
-    z-index: 2;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: background 0.2s, box-shadow 0.2s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+
+  background: var(--blue-accent);
+  color: white;
+  font-size: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  z-index: 10;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+  transition: all 0.25s ease;
 }
 
+/* hover */
 .carousel-btn:hover {
-    background: var(--blue-light);
-    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.2);
+  background: #705f8f;
+  transform: translateY(-50%) scale(1.1);
 }
 
-.carousel-prev {
-    left: 0;
+.prev {
+  left: 10px;   
 }
 
-.carousel-next {
-    right: 0;
+.next {
+  right: 10px; 
 }
-
-/* Dots */
-.carousel-dots {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 10px;
-}
-
-.carousel-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: none;
-    background: var(--blue-light);
-    cursor: pointer;
-    transition: background 0.25s, transform 0.25s;
-}
-
-.carousel-dot.active {
-    background: var(--blue-primary);
-    transform: scale(1.25);
-}
-
 .location {
     display: block;
     margin: 10px 0 15px;
@@ -597,7 +661,10 @@ h3 {
   padding: 70px 0;
   text-align: center;
 }
-
+.how-it-works h2 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
 .steps div {
   background: var(--blue-very-light);
   padding: 25px;
@@ -616,13 +683,37 @@ section {
   margin-bottom: 40px;
 }
 
+.steps div i {
+  font-size: 28px;
+  color: var(--blue-primary);
+  margin-bottom: 10px;
+}
 
+.steps div {
+  transition: 0.3s ease;
+}
+
+.steps div:hover {
+  transform: translateY(-6px);
+}
 
 
 
 .cta {
-    text-align: center;
-    padding: 90px 0;
+  text-align: center;
+  padding: 100px 0;
+
+  background: linear-gradient(
+    to right,
+    rgba(64, 91, 156, 0.08),
+    rgba(110, 150, 199, 0.08)
+  );
+}
+
+.cta .primary-btn {
+  font-size: 1rem;
+  padding: 14px 28px;
+  border-radius: 30px;
 }
 .cta h2 {
     font-size: 2.5rem;
